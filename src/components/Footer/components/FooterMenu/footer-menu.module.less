@@ -1,0 +1,35 @@
+.container {
+  background-color: salmon;
+
+  margin: 0;
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-around;
+  align-items: center;
+
+  li {
+    list-style-type: none;
+    margin: 0;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      > .main {
+        border: 1px solid green;
+      }
+
+      > .sub {
+        border: 1px solid purple;
+        text-transform: capitalize;
+        font-size: 10px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}
