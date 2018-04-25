@@ -5,7 +5,7 @@ import FinePrint from './components/FinePrint/FinePrint'
 import styles from './footer.module.less'
 
 const Footer = () => (
-  <div>
+  <div className={styles.container}>
     <FooterMenu />
     <FinePrint />
   </div>
