@@ -35,19 +35,16 @@ const FooterMenu = () => (
     <li>
       <div>
         <Link className={styles.main} to='#'>Account Login</Link>
-        <Link className={styles.sub} to='#'>Sub Menu</Link>
       </div>
     </li>
     <li>
       <div>
         <Link className={styles.main} to='#'>Join Our Team</Link>
-        <Link className={styles.sub} to='#'>Sub Menu</Link>
       </div>
     </li>
     <li>
       <div>
         <Link className={styles.main} to='#'>Contact Us</Link>
-        <Link className={styles.sub} to='#'>Sub Menu</Link>
       </div>
     </li>
   </ul>
