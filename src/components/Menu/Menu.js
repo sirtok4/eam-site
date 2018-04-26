@@ -5,7 +5,7 @@ import styles from './menu.module.less'
 
 const Menu = () => (
   <ul className={styles.container}>
-    <li><Link to='#'>About Empire</Link></li>
+    <li><Link to='/about-empire'>About Empire</Link></li>
     <li><Link to='#'>Brokerage</Link></li>
     <li><Link to='#'>Asset Management</Link></li>
     <li><Link to='#'>Investment Banking</Link></li>
