@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+
+  button {
+    flex-grow: 1;
+
+    &.blue {
+      background-color: #333A54;
+      a {
+        color: #F5F4F1
+      }
+    }
+
+    &.gray {
+      background-color: #F5F4F1;
+      a {
+        color: #333A54;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  button:not(:last-child) {
+    margin-right: 25px;
+  }
+}
