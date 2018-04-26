@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from './Image'
+import Image from '../Images/Image'
 import tempPhoto from './tempPhoto.jpeg'
 
 import styles from './landing.module.less'
