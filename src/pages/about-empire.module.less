@@ -1,3 +1,31 @@
 .container {
-  backround-color: pink;
+  // @todo: make app-wide
+  .stdContent {
+    margin: 48px 10%;
+    display: flex;
+
+    .left, .right {
+      width: 50%;
+      display: inline-block;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      color: #333A54;
+      margin: 0;
+    }
+
+    p {
+      color: #050505;
+    }
+
+    .section {
+      padding-right: 48px;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
 }
