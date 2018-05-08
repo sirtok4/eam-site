@@ -9,10 +9,10 @@ import banner2 from '../../assets/images/mfg-about_empire-2.png'
 import styles from './about-empire.module.less'
 
 const AboutEmpire = () => (
-  <div className={styles.container}>
+  <div className={styles.pageContainer}>
     <Buttons />
     <Banner src={banner1} />
-    <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory, and management services through our high net worth individual, corporate, and institutional client base.</div>
+    <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory, and management services through our high net worth individual, corporate and institutional client base.</div>
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>

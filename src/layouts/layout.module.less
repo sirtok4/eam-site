@@ -1,11 +1,18 @@
 @font-face {
   font-family: 'libre franklin semibold';
-  src: url('../../assets/fonts/Libre_Franklin/LibreFranklin-Medium.ttf');
+  src: url('../../assets/fonts/Libre_Franklin/LibreFranklin-SemiBold.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
-.container {
+@font-face {
+  font-family: 'libre franklin regular';
+  src: url('../../assets/fonts/Libre_Franklin/LibreFranklin-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mainContainer {
   .mainContent {
     max-width: 1920px;
     margin: 0 auto;
@@ -19,5 +26,23 @@
       text-transform: uppercase;
       margin: 0;
     }
+
+    p {
+      color: #050505;
+      font-family: "libre franklin regular";
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+    }
   }
 }
+
+// @todo: apply global .callout
+// .callout {
+//   height: 144px;
+//   width: 1200px;
+//   color: #5D6482;
+//   font-family: "libre franklin semibold";
+//   font-size: 36px;
+//   line-height: 48px;
+// }

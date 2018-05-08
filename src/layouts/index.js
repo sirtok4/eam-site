@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import styles from './layout.module.less'
 
 const Layout = ({ children, data }) => (
-  <div className={styles.container}>
+  <div className={styles.mainContainer}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
