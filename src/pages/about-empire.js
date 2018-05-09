@@ -12,7 +12,7 @@ const AboutEmpire = () => (
   <div className={styles.pageContainer}>
     <Buttons />
     <Banner src={banner1} />
-    <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory, and management services through our high net worth individual, corporate and institutional client base.</div>
+    <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory and management services through our high net worth individual, corporate and institutional client base.</div>
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
