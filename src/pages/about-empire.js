@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Buttons from '../components/Buttons/Buttons'
 import Banner from '../components/Images/Banner/Banner'
 
@@ -10,7 +9,10 @@ import styles from './about-empire.module.less'
 
 const AboutEmpire = () => (
   <div className={styles.pageContainer}>
-    <Buttons />
+    <Buttons
+      x={{ label: 'Our Philosophy', location: '#' }}
+      y={{ label: 'Relationships Matter', location: '#' }}
+    />
     <Banner src={banner1} />
     <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory and management services through our high net worth individual, corporate and institutional client base.</div>
     <div className={styles.stdContent}>
@@ -20,7 +22,7 @@ const AboutEmpire = () => (
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, eaque eos? Nemo voluptatum tempore laborum labore exercitationem dicta pariatur harum autem corporis incidunt! Quae sit placeat tempora ut, aspernatur labore ipsum officia atque alias cumque culpa, magnam ullam saepeet.</p>
         </div>
         <div className={styles.section}>
-          <h4>Backgrounnd</h4>
+          <h4>Background</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime at veritatis optio ducimus magni ea magnam aliquid numquam, cumque sequi repudiandae quisquam cupiditate sed rerum voluptatum aspernatur eaque iusto ratione quasi. Dolore laboriosam cum, unde quod laudantium consequatur dolor minima magnam mollitia ipsa enim sapiente sed ducimus laborum.</p>
         </div>
       </div>
