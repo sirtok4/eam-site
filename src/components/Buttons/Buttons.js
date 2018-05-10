@@ -2,10 +2,10 @@ import React from 'react'
 
 import styles from './buttons.module.less'
 
-const Buttons = () => (
+const Buttons = ({ x, y }) => (
   <div className={styles.container}>
-    <button className={styles.blue}><a href='#'>Our Philosophy</a></button>
-    <button className={styles.gray}><a href='#'>Relationships Matter</a></button>
+    <button className={styles.blue}><a href={x.location}>{x.label}</a></button>
+    <button className={styles.gray}><a href={y.location}>{y.label}</a></button>
   </div>
 )
 
