@@ -7,7 +7,7 @@ const Menu = () => (
   <ul className={styles.container}>
     <li><Link to='/about-empire'>About Empire</Link></li>
     <li><Link to='/brokerage'>Brokerage</Link></li>
-    <li><Link to='#'>Asset Management</Link></li>
+    <li><Link to='/asset-management'>Asset Management</Link></li>
     <li><Link to='#'>Investment Banking</Link></li>
     <li><Link to='#'>Account Login</Link></li>
     <li><Link to='#'>Join Our Team</Link></li>
