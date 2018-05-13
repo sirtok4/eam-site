@@ -1,12 +1,14 @@
 import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
-import banner1 from '../../assets/images/mfg-asset_management@2x.png'
-import styles from './asset-management.module.less'
+import banner1 from '../../assets/images/mfg-join_our_team@2x.png'
 
-const AssetManagement = () => (
-  <div className={styles.assetManagementContainer}>
+import styles from './join-our-team.module.less'
+
+const JoinOurTeam = () => (
+  <div className={styles.joinOurTeamContainer}>
     <Banner src={banner1} />
+
     <div className={styles.callout}>
       Every investment plan is customized based on a thorough assessment of each client's unique goals, needs and appetite for risk while remaining cognizant of the changing market environment.
     </div>
@@ -66,4 +68,4 @@ const AssetManagement = () => (
   </div>
 )
 
-export default AssetManagement
+export default JoinOurTeam
