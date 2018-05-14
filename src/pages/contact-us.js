@@ -43,8 +43,24 @@ const ContactUs = () => (
       </div>
       <div className={styles.right}>
         <h2>Our Office</h2>
-        <p>test</p>
         <div className={styles.section}>
+          <div className={styles.address}>
+            <div>
+              <label>Address:</label>
+              <p>29 Broadway</p>
+              <p>12th Floor</p>
+              <p>New York, NY 10006</p>
+            </div>
+            <div>
+              <label>Phone:</label>
+              <p>888.417.8050</p>
+              <p>212.417.7777</p>
+            </div>
+            <div>
+              <label>Email:</label>
+              <p><a href='mailto:webmaster@example.com'>info@empiream.com</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

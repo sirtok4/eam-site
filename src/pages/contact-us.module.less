@@ -29,6 +29,16 @@
     .section {
       padding-right: 48px;
 
+      label {
+        display: block;
+        text-transform: uppercase;
+        color: #333A54;
+        font-family: 'libre franklin semibold';
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+      }
+
       .field {
         // height: 68px;
         margin: 12px 0;
@@ -59,16 +69,6 @@
           background-color: #979593;
         }
 
-        > label {
-          display: block;
-          text-transform: uppercase;
-          color: #333A54;
-          font-family: 'libre franklin semibold';
-          font-size: 12px;
-          font-weight: 600;
-          line-height: 24px;
-        }
-
         > input, textarea {
           height: 40px;
           width: 100%;
@@ -79,6 +79,28 @@
 
         > textarea {
           height: 188px;
+        }
+      }
+
+      .address {
+        display: flex;
+
+        > div {
+          flex: 1;
+
+          p, a {
+            margin: 0;
+            font-size: 16px;
+            line-height: 24px;
+          }
+
+          p {
+            color: #050505;
+          }
+
+          a {
+            color: #333A54;
+          }
         }
       }
 
