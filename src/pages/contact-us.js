@@ -34,6 +34,11 @@ const ContactUs = () => (
             <label htmlFor='questions-comments'>Questions / Comments</label>
             <textarea id='questions-comments' name='questions-comments' />
           </div>
+
+          <div className={styles.field}>
+            <button className={styles.submit}>Submit</button>
+            <button className={styles.clear}>Clear</button>
+          </div>
         </div>
       </div>
       <div className={styles.right}>
