@@ -11,7 +11,7 @@ const Menu = () => (
     <li><Link to='/investment-banking'>Investment Banking</Link></li>
     <li><Link to='#'>Account Login</Link></li>
     <li><Link to='/join-our-team'>Join Our Team</Link></li>
-    <li><Link to='#'>Contact Us</Link></li>
+    <li><Link to='/contact-us'>Contact Us</Link></li>
   </ul>
 )
 
