@@ -1,7 +1,12 @@
 import React from 'react'
 
-const Image = ({ src }) => (
-  <img src={src} />
+import styles from './image.module.less'
+
+const Image = ({ src, caption }) => (
+  <div className={styles.imageContainer}>
+    <img src={src} />
+    <div className={styles.caption}>{caption}</div>
+  </div>
 )
 
 Image.displayName = 'Image'
