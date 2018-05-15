@@ -7,7 +7,7 @@ import styles from './join-our-team.module.less'
 
 const JoinOurTeam = () => (
   <div className={styles.joinOurTeamContainer}>
-    <Banner src={banner1} />
+    <Banner src={banner1} caption='Teamwork And Collaboration' />
 
     <div className={styles.callout}>
       Every investment plan is customized based on a thorough assessment of each client's unique goals, needs and appetite for risk while remaining cognizant of the changing market environment.

@@ -19,7 +19,7 @@ const InvestmentBanking = () => (
       }}
     />
 
-    <Banner src={banner1} />
+    <Banner src={banner1} caption='Take Charge And Deliver' />
 
     <div className={styles.callout}>
       Reach a wider spectrum of investors through our experience in corporate financing, with particular strength in the medical and biotech industries.
@@ -80,7 +80,7 @@ const InvestmentBanking = () => (
       </div>
     </div>
 
-    <Banner src={banner2} />
+    <Banner src={banner2} caption='Above-Average Growth Opportunities' />
 
     <div className={styles.callout}>
       Our exceptional long-term relationships with major institutional banking firms allow us to participate in a variety of syndicate issues with a potential for significant growth.

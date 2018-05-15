@@ -7,7 +7,7 @@ import styles from './contact-us.module.less'
 
 const ContactUs = () => (
   <div className={styles.contactUsContainer}>
-    <Banner src={banner1} />
+    <Banner src={banner1} caption='Build With Us.' />
 
     <div className={styles.stdContent}>
       <div className={styles.left}>

@@ -14,7 +14,7 @@ const Brokerage = () => (
       y={{ label: 'Institutional Research, Sales, and Trading', location: '#' }}
     />
 
-    <Banner src={banner1} />
+    <Banner src={banner1} caption='One-On-One Service' />
 
     <div className={styles.callout}>
       Plan, track, and execute securities transactions in markets around the world, using a broad array of equity and debt instruments.
@@ -58,7 +58,7 @@ const Brokerage = () => (
       </div>
     </div>
 
-    <Banner src={banner2} />
+    <Banner src={banner2} caption='Extensive Research And Analysis' />
 
     <div className={styles.callout}>
       Our goal is to build long-term relationships by delivering attentive service along with experience, insight and market knowledge.
