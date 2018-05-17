@@ -10,7 +10,7 @@ import styles from './landing.module.less'
 const Landing = () => (
   <div className={styles.container}>
     <div className={styles.hero}>
-      <Image src={photo1} />
+      <Image src={photo1} caption='Build With Us.' />
     </div>
     <div className={styles.group3}>
       <Image src={photo2} />
