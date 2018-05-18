@@ -9,7 +9,7 @@ const Menu = () => (
     <li><Link to='/brokerage'>Brokerage</Link></li>
     <li><Link to='/asset-management'>Asset Management</Link></li>
     <li><Link to='/investment-banking'>Investment Banking</Link></li>
-    <li><Link to='#'>Account Login</Link></li>
+    <li><Link to='/login'>Account Login</Link></li>
     <li><Link to='/join-our-team'>Join Our Team</Link></li>
     <li><Link to='/contact-us'>Contact Us</Link></li>
   </ul>

@@ -15,7 +15,7 @@ const ContactUs = () => (
         <p>To find out if a relationship with Empire is right for you, please contact us today.</p>
         <div className={styles.section}>
           <div className={styles.field}>
-            <label htmlFor='-name'>Full Name</label>
+            <label htmlFor='name'>Full Name</label>
             <input id='name' name='name' type='text' />
           </div>
 
