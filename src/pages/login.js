@@ -10,7 +10,9 @@ const Login = () => (
     <div className={styles.section}>
       <h2>Account Login</h2>
       <p>
-        Access your account via Investor Connect*. In addition to account updates, you also have access to your online documents, convenient financial tools, research, and more.
+        Access your account via Investor Connect&reg;. In addition to account
+        updates, you also have access to your online documents, convenient
+        financial tools, research, and more.
       </p>
       <div className={styles.field}>
         <label htmlFor='userId'>User ID</label>
@@ -23,13 +25,20 @@ const Login = () => (
       </div>
 
       <div className={styles.field}>
-        {/* PICK UP HERE TOMORROW (PLACE ON SIDE OF CHECKBOX) */}
-        <label>Remember My User Id</label>
-        <input id='rememberUserId' name='rememberUserId' type='checkbox' checked />
+        <div className={styles.checkboxField}>
+          <input
+            className={styles.rememberUserId}
+            id='rememberUserId'
+            name='rememberUserId'
+            type='checkbox'
+          />
+          <label>Remember My User Id</label>
+        </div>
       </div>
 
       <div className={styles.field}>
-        <button className={styles.submit}>Sign In</button>
+        {/* TODO: FIX LOCK ICON */}
+        <button className={styles.submit}>&#x1F512; Sign In</button>
       </div>
 
       <div className={styles.field}>

@@ -31,6 +31,23 @@
       margin: 12px 0;
       width: 100%;
 
+      .checkboxField {
+        > label, > input {
+          display: inline-block;
+        }
+
+        > input {
+          margin-right: 12px;
+          height: 14px;
+          width: 14px;
+        }
+
+        .rememberUserId {
+          // TODO: style checkbox
+          border: 1px solid red;
+        }
+      }
+
       &:last-child {
         margin-bottom: 0;
       }
