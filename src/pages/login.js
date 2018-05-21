@@ -15,12 +15,18 @@ const Login = () => (
         financial tools, research, and more.
       </p>
       <div className={styles.field}>
-        <label htmlFor='userId'>User ID</label>
+        <div className={styles.labelWithLink}>
+          <label htmlFor='userId'>User ID</label>
+          <a href='#'>User ID &amp; Password Help</a>
+        </div>
         <input id='userId' name='userId' type='text' />
       </div>
 
       <div className={styles.field}>
-        <label htmlFor='password'>Password</label>
+        <div className={styles.labelWithLink}>
+          <label htmlFor='password'>Password</label>
+          <a href='#'>Forgot Password?</a>
+        </div>
         <input id='password' name='password' type='password' />
       </div>
 
@@ -44,7 +50,7 @@ const Login = () => (
       <div className={styles.field}>
         <div className={styles.links}>
           <a href='#'>Need an Account? Register Now</a>
-          <a href='#'>Investor Connect Tour</a>
+          <a href='#'>Investor Connect&reg; Tour</a>
         </div>
       </div>
     </div>
