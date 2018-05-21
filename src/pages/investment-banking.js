@@ -10,15 +10,16 @@ const InvestmentBanking = () => (
   <div className={styles.investmentBankingContainer}>
     <Buttons
       x={{
-        location: '#',
+        location: '#CapitalMarkets',
         label: 'Capital Markets'
       }}
       y={{
-        location: '#',
+        location: '#Syndicate',
         label: 'Syndicate'
       }}
     />
 
+    <a id='CapitalMarkets' />
     <Banner src={banner1} caption='Take Charge And Deliver' />
 
     <div className={styles.callout}>
@@ -80,6 +81,7 @@ const InvestmentBanking = () => (
       </div>
     </div>
 
+    <a id='Syndicate' />
     <Banner src={banner2} caption='Above-Average Growth Opportunities' />
 
     <div className={styles.callout}>

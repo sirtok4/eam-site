@@ -10,10 +10,10 @@ import styles from './brokerage.module.less'
 const Brokerage = () => (
   <div className={styles.brokerageContainer}>
     <Buttons
-      x={{ label: 'Transactional Brokerage', location: '#' }}
-      y={{ label: 'Institutional Research, Sales, and Trading', location: '#' }}
+      x={{ label: 'Transactional Brokerage', location: '#TransactionalBrokerage' }}
+      y={{ label: 'Institutional Research, Sales, and Trading', location: '#ResearchSalesAndTrading' }}
     />
-
+    <a id='TransactionalBrokerage' />
     <Banner src={banner1} caption='One-On-One Service' />
 
     <div className={styles.callout}>
@@ -58,6 +58,7 @@ const Brokerage = () => (
       </div>
     </div>
 
+    <a id='ResearchSalesAndTrading' />
     <Banner src={banner2} caption='Extensive Research And Analysis' />
 
     <div className={styles.callout}>

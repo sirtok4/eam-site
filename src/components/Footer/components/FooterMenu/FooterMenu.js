@@ -7,44 +7,44 @@ const FooterMenu = () => (
   <ul className={styles.container}>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>About Empire</Link></h6>
-        <Link className={styles.sub} to='#'>Our Philosophy</Link>
-        <Link className={styles.sub} to='#'>Relationships Matter</Link>
+        <h6><Link className={styles.main} to='/about-empire'>About Empire</Link></h6>
+        <Link className={styles.sub} to='/about-empire#OurPhilosophy'>Our Philosophy</Link>
+        <Link className={styles.sub} to='/about-empire#RelationshipsMatter'>Relationships Matter</Link>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Brokerage</Link></h6>
-        <Link className={styles.sub} to='#'>Transactional Brokerage</Link>
-        <Link className={styles.sub} to='#'>Institutional Research, Sales &amp; Trading</Link>
+        <h6><Link className={styles.main} to='/brokerage'>Brokerage</Link></h6>
+        <Link className={styles.sub} to='/brokerage#TransactionalBrokerage'>Transactional Brokerage</Link>
+        <Link className={styles.sub} to='/brokerage#ResearchSalesAndTrading'>Institutional Research, Sales &amp; Trading</Link>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Asset Management</Link></h6>
-        <Link className={styles.sub} to='#'>Financial Planning</Link>
+        <h6><Link className={styles.main} to='/asset-management'>Asset Management</Link></h6>
+        <Link className={styles.sub} to='/asset-management#FinancialPlanning'>Financial Planning</Link>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Investment Banking</Link></h6>
-        <Link className={styles.sub} to='#'>Capital Markets</Link>
-        <Link className={styles.sub} to='#'>Syndicate</Link>
+        <h6><Link className={styles.main} to='/investment-banking'>Investment Banking</Link></h6>
+        <Link className={styles.sub} to='/investment-banking#CapitalMarkets'>Capital Markets</Link>
+        <Link className={styles.sub} to='/investment-banking#Syndicate'>Syndicate</Link>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Account Login</Link></h6>
+        <h6><Link className={styles.main} to='/login'>Account Login</Link></h6>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Join Our Team</Link></h6>
+        <h6><Link className={styles.main} to='/join-our-team'>Join Our Team</Link></h6>
       </div>
     </li>
     <li>
       <div>
-        <h6><Link className={styles.main} to='#'>Contact Us</Link></h6>
+        <h6><Link className={styles.main} to='/contact-us'>Contact Us</Link></h6>
       </div>
     </li>
   </ul>
