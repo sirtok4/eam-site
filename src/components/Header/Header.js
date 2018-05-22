@@ -7,7 +7,6 @@ import styles from './header.module.less'
 
 const Header = () => (
   <div className={styles.container}>
-    <div className={styles.tabLocation} />
     <div className={styles.logoAndMenu}>
       <MainLogo />
       <Menu />
