@@ -15,5 +15,4 @@ const Menu = () => (
   </ul>
 )
 
-Menu.displayName = 'Menu'
 export default Menu
