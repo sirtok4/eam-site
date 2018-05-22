@@ -2,7 +2,10 @@ import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
 import styles from './login.module.less'
+import lock from '../../assets/images/lock-close-fill.svg'
 import banner1 from '../../assets/images/mfg-account_login@2x-dark.png'
+
+const Lock = () => <img style={{ margin: '0 12px 0 0' }} src={lock} />
 
 const Login = () => (
   <div className={styles.loginContainer}>
@@ -43,8 +46,10 @@ const Login = () => (
       </div>
 
       <div className={styles.field}>
-        {/* TODO: FIX LOCK ICON */}
-        <button className={styles.submit}>&#x1F512; Sign In</button>
+        <button className={styles.submit}>
+          <Lock />
+          <span>Sign In</span>
+        </button>
       </div>
 
       <div className={styles.field}>
