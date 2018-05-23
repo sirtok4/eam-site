@@ -23,10 +23,10 @@ const Brokerage = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate officiis animi illo voluptatem voluptatum quos sapiente aliquam est quaerat error rem deserunt, iure, neque suscipit, iste itaque voluptas vitae batae.</p>
+          <p>At Empire Asset Management, you can benefit from the same high level of investment ideas and research available at the largest brokerage houses, combined with the personal attention of a smaller, more client-focused investment firm.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime at veritatis optio ducimus magni ea magnam aliquid numquam, cumque sequi repudiandae quisquam cupiditate sed rerum voluptatum aspernatur eaque iusto ratione quasi. Dolore laboriosam cum, unde quod laudantium consequatur dolor.</p>
+          <p>We provide every client with the one-on-one service of a personal Empire financial advisor who will suggest investment ideas, respond promptly to your needs, questions, and instructions, and report on how your account is doing. Your financial advisor can also assist you with services like these:</p>
         </div>
         <div className={styles.section}>
           <ul>
@@ -47,13 +47,13 @@ const Brokerage = () => (
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. Quis, eum ipsam pariatur at corrupti optio magnam animi reiciendis, aliquam quaerat voluptates consequatur! Laudantium totam quisquam error repellat consequuntur, quos impedit explicabo sunt minima.</p>
+          <p>As an independent brokerage firm, we are not beholden to any fund family or investment bank. The ideas and suggestions we offer are product- and firm-agnostic, chosen with each client’s objectives and interests in mind.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo quos commodi, sed sit autem nobis, quo ullam error repellendus velit! Eaque quas molestiae distinctio nesciunt consequatur. Consequatur quo, temporibus doloremque, corporis ab rem voluptate nam beatae porro earum quaerat.</p>
+          <p>But to us, good service is more than just professional investment-picking. As the past several years have shown, one of the key advantages of a full-service brokerage firm is having someone to guide you through market turbulence, helping you make good decisions and avoid bad ones. At Empire, we’re all about building relationships—not just portfolios.</p>
         </div>
         <div className={styles.section}>
-          <p>To find out more about our services, please contact us.</p>
+          <p>To find out more about our brokerage services, please contact us.</p>
         </div>
       </div>
     </div>
@@ -68,20 +68,20 @@ const Brokerage = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate officiis animi illo voluptatem voluptatum quos sapiente aliquam est quaerat error rem deserunt, iure, neque suscipit, iste itaque voluptas vitae batae.</p>
+          <p>We bring our institutional investors a penetrating understanding of the markets, in-depth securities research and analysis, and a track record of exceptional service.</p>
         </div>
         <div className={styles.section}>
           <h4>Sales</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime at veritatis optio ducimus magni ea magnam aliquid numquam, cumque sequi repudiandae quisquam cupiditate sed rerum voluptatum aspernatur eaque iusto ratione quasi. Dolore laboriosam cum, unde quod laudantium consequatur dolor.</p>
+          <p>Our seasoned sales team is comprised of industry veterans with extensive research and analysis experience. In reports and recommendations, we provide our clients with fundamental and technical profiles of growth companies throughout North America and Europe.</p>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
           <h4>Trading</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. Quis, eum ipsam pariatur at corrupti optio magnam animi reiciendis, aliquam quaerat voluptates consequatur! Laudantium totam quisquam error repellat consequuntur, quos impedit explicabo sunt minima.</p>
+          <p>Our traders are exceptionally proficient in trading patterns of the growth stocks that are our specialty. We focus on individual industry sectors, which allow us to develop a deep knowledge of the companies and their markets. We execute on all major exchanges, including NYSE, NASDAQ, and OTC, et al.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo quos commodi, sed sit autem nobis, quo ullam error repellendus velit! Eaque quas molestiae distinctio nesciunt consequatur. Consequatur quo, temporibus doloremque.</p>
+          <p>At Empire, our goal is to build long-term relationships by delivering attentive service along with experience, insight and market knowledge. To learn more about our institutional services, please contact us.</p>
         </div>
       </div>
     </div>
