@@ -36,17 +36,17 @@ const AboutEmpire = () => (
       <div className={styles.left}>
         <div className={styles.section}>
           <h4>People</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, eaque eos? Nemo voluptatum tempore laborum labore exercitationem dicta pariatur harum autem corporis incidunt! Quae sit placeat tempora ut, aspernatur labore ipsum officia atque alias cumque culpa, magnam ullam saepeet.</p>
+          <p>Led by an executive team comprised of Wall Street veterans, our accomplished financial professionals work closely with our clients to innovate and implement effective, goal-focused solutions.</p>
         </div>
         <div className={styles.section}>
           <h4>Background</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime at veritatis optio ducimus magni ea magnam aliquid numquam, cumque sequi repudiandae quisquam cupiditate sed rerum voluptatum aspernatur eaque iusto ratione quasi. Dolore laboriosam cum, unde quod laudantium consequatur dolor minima magnam mollitia ipsa enim sapiente sed ducimus laborum.</p>
+          <p>Established as a FINRA member in 2007, Empire Asset Management initially focused on guiding influential investors to value-added private placements, IPOs, secondary and debt offerings. Emerging stronger from market events that brought down many brokerage firms, Empire today serves thousands of clients across the U.S. and abroad. Our philosophy that clients come first has been a key part of our success, then and now.</p>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
           <h4>Capabilities</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis error dolorum magni accusantium eius sint id officiis maiores voluptate quaerat modi nostrum laborum, alias voluptas impedit qui necessitatibus libero quidem recusandae corrupti delectus aperiam perferendis reprehenderit? Ad eaque, veritatis, odit sapiente perspiciatis explicabo libero corporis cupiditate culpa ea et aut quo, illum doloribus. Laboriosam maxime incidunt ipsa velit omnis asperiores.</p>
+          <p>Empire’s brokerage capabilities allow clients to plan, execute, and track securities transactions in markets around the world, using a broad array of equity and debt instruments. As an asset manager, we help clients take advantage of private investment opportunities, with emphasis on risk management, global diversification, and customized portfolio modeling. Companies and institutions can reach a wider spectrum of investors through our investment banking expertise, with particular strength in the medical and biotech industries.</p>
         </div>
       </div>
     </div>
@@ -56,12 +56,12 @@ const AboutEmpire = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In maxime modi quo dignissimos at ea ipsa blanditiis quam optio saepe fuga sint ratione nisi excepturi necessitatibus, accusamus quisquam assumenda nemo ab adipisci laborum enim beatae. Cupiditate hic expedita labore, ad officia consectetur. Eveniet ipsa vitae dolorum ratione assumenda consectetur culpa fuga in, repellat ea est fugit cumque ipsam quia repellendus.</p>
+          <p>At Empire, we are committed to a distinctive way of doing business and an unshakable emphasis on long-term client relationships. We promise a personalized experience in serving our clients best interests based on their unique needs and objectives. Our goal is to provide a sound investment plan by employing an objective driven practice where we get to really know and understand our clients’ financial commitments, circumstances, needs and objectives in order to select the most suitable solutions to help achieve their investment goals.</p>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum mollitia ab delectus? Ex aliquid qui quis provident consequuntur quaerat eius ipsam, impedit maxime ea incidunt maiores, enim quidem. Perspiciatis facilis pariatur ipsam odio amet maxime vero fuga placeat officia quo.</p>
+          <p>Our commitment does not end with an investment. Our financial professionals are dedicated to the progress of each portfolio and to ensure that clients’ understand how they are tracking toward their goals. Through attentive service and reliable access, we work hard to make sure that our clients experience a high-touch service that is responsive to their evolving needs.</p>
         </div>
       </div>
     </div>
