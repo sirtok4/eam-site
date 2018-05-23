@@ -1,11 +1,27 @@
 import React from 'react'
 import Buttons from '../components/Buttons/Buttons'
 import Banner from '../components/Images/Banner/Banner'
+import Image from '../components/Images/Image'
 
 import banner1 from '../../assets/images/mfg-about_empire-1.png'
 import banner2 from '../../assets/images/mfg-about_empire-2.png'
+import partner1 from '../../assets/images/FINRA-Logo.png'
+import partner2 from '../../assets/images/MSRB-Logo.png'
+import partner3 from '../../assets/images/SIPC-Logo.png'
 
 import styles from './about-empire.module.less'
+
+const Partner = ({ name, src, children }) => (
+  <div className={styles.partner}>
+    <div className={styles.logo}>
+      <Image src={src} />
+    </div>
+    <div className={styles.text}>
+      <h4>{name}</h4>
+      <p>{children}</p>
+    </div>
+  </div>
+)
 
 const AboutEmpire = () => (
   <div className={styles.pageContainer}>
@@ -48,6 +64,19 @@ const AboutEmpire = () => (
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum mollitia ab delectus? Ex aliquid qui quis provident consequuntur quaerat eius ipsam, impedit maxime ea incidunt maiores, enim quidem. Perspiciatis facilis pariatur ipsam odio amet maxime vero fuga placeat officia quo.</p>
         </div>
       </div>
+    </div>
+    <div className={styles.partners}>
+      <Partner name='FINRA' src={partner1}>
+        FINRA is dedicated to investor protection and market integrity through effective and efficient regulation of broker-dealer.
+      </Partner>
+
+      <Partner name='MSRB' src={partner2}>
+        The MSRB protects investors, state and local governments, and the public interest, by promoting a fair and efficient municipal securities market.
+      </Partner>
+
+      <Partner name='SICP' src={partner3}>
+        The SICP oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble, and the customer assets are missing.
+      </Partner>
     </div>
   </div>
 )
