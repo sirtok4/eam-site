@@ -14,9 +14,9 @@ const Landing = () => (
       <Image src={photo1} caption='Build With Us.' />
     </div>
     <div className={styles.group3}>
-      <Image src={photo2} />
-      <Image src={photo3} />
-      <Image src={photo4} />
+      <Image src={photo2} caption='Brokerage' />
+      <Image src={photo3} caption='Asset Management' />
+      <Image src={photo4} caption='Investment Banking' />
     </div>
   </div>
 )
