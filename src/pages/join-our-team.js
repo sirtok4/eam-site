@@ -17,16 +17,16 @@ const JoinOurTeam = () => (
       <div className={styles.left}>
         <h4>Customized Solutions</h4>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate officiis animi illo voluptatem voluptatum quos sapiente aliquam est quaerat error rem deserunt, iure, neque suscipit, iste itaque voluptas vitae batae.</p>
+          <p>Through our registered investment adviser affiliate, Empire Financial Management Company, we provide a full range of customized investment solutions leveraging the expertise of over 5,000 leading asset managers that control risk while maximizing potential for return.  Every investment plan is customized based on a thorough assessment of each client’s unique goals, needs and appetite for risk while remaining cognizant of the changing market environment.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime at veritatis optio ducimus magni ea magnam aliquid numquam, cumque sequi repudiandae quisquam cupiditate sed rerum voluptatum aspernatur eaque iusto ratione quasi.</p>
+          <p>Our financial advisors are highly skilled in weighting of various asset categories and diversification in formulating a balanced investment plan to meet your investment objectives.</p>
         </div>
         <div className={styles.section}>
           <p>Our full range of options include:</p>
           <ul>
             <li>
-              <p>Separately managed accounts</p>
+              <p>Separately Managed Accounts</p>
             </li>
             <li>
               <p>Multi-Manager Accounts</p>
@@ -49,19 +49,19 @@ const JoinOurTeam = () => (
       <div className={styles.right}>
         <h4>Identifying Your Goals</h4>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. Quis, eum ipsam pariatur at corrupti optio magnam animi reiciendis, aliquam quaerat voluptates consequatur! Laudantium totam quisquam error repellat consequuntur, quos impedit explicabo sunt minima.</p>
+          <p>Our investment process begins with an analysis of your needs and goals.  A profile is developed that highlights your investment objectives, tolerance for risk and investment time horizon and then used as the foundation for a long-range investment strategy.  One established, we will work together with you to define an investment plan tailored to your specific situation.</p>
         </div>
         <div className={styles.section}>
           <h4>Developing Your Investment Strategy</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo quos commodi, sed sit autem nobis, quo ullam error repellendus velit! Eaque quas molestiae distinctio nesciunt consequatur. Consequatur quo, temporibus doloremque, corporis ab rem voluptate nam beatae porro earum quaerat.</p>
+          <p>Our financial advisors will assist you in weighting of various asset categories (i.e., stocks, bonds, cash) as well as diversification of holdings to reduce risk and increase the security of your portfolio based on your personalized risk profile.</p>
         </div>
         <div className={styles.section}>
           <h4>Your Investment Plan</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam possimus est maiores natus. Totam, officiis perspiciatis iure quo consequatur commodi eos, cum itaque distinctio, adipisci numquam atque ex optio!</p>
+          <p>Through a careful evaluation and due diligence process that screens over 5,000 investment management firms our financial advisors are able to present our clients with some of the best investment managers who specialize in a broad range of asset classes.  The selection of appropriate managers for your customized investment plan allows us offer you a blended management and allocation strategy that best suits your needs.</p>
         </div>
         <div className={styles.section}>
           <h4>Monitoring Your Portfolio</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam possimus est maiores natus. Totam, officiis perspiciatis iure quo consequatur commodi eos, cum itaque distinctio, adipisci numquam atque ex optio!</p>
+          <p>Following your investment, your portfolio will be monitored on an ongoing basis to ensure that it remains on track to achieve the investment goals and objectives.  Additionally, our financial advisors stand ready to assist when market conditions or other factors may cause the allocations to deviate from the original plan.</p>
         </div>
       </div>
     </div>
