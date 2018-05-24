@@ -10,13 +10,9 @@ import styles from './layout.module.less'
 const Layout = ({ children, data }) => (
   <div className={styles.mainContainer}>
     <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      title='Empire Asset Management'
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
+    <Header siteTitle='Empire Asset Management' />
     <div className={styles.mainContent}>
       {children()}
     </div>
@@ -29,13 +25,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
