@@ -29,7 +29,7 @@ const InvestmentBanking = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illo quae quod ipsum commodi neque similique ullam ipsam id quas, voluptate totam dignissimos. Esse enim ex dolorum, adipisci numquam tempore rerum quasi provident dolores blanditiis placeat consequuntur pariatur, sint aperiam animi! Voluptates nostrum maiores doloribus ex obcaecati officia totam ad.</p>
+          <p>At Empire, we are committed to the highest standards of integrity and service in providing investment banking services to both publicly and privately held businesses.  As an entrepreneurial firm, we take great pride in being an advisor that provides objective and independent ideas specifically developed for a client’s long-term needs.  We approach each engagement as an opportunity to establish a long lasting partnership that will endure well beyond the immediacy of the transaction.</p>
         </div>
         <div className={styles.section}>
           <p>Our scope of Investment Banking Services include:</p>
@@ -67,16 +67,16 @@ const InvestmentBanking = () => (
       <div className={styles.right}>
         <div className={styles.section}>
           <h4>Capital Markets</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. Quis, eum ipsam pariatur at corrupti optio magnam animi reiciendis, aliquam quaerat voluptates consequatur! Laudantium totam quisquam error repellat consequuntur, quos impedit explicabo sunt minima.</p>
+          <p>Capital markets investing offers the potential for exceptional returns, along with unique risk issues. Due diligence is just part of the equation. Your brokerage partner must also have a thorough grasp of how the markets work, a strong network of dealer relationships across many trading disciplines, up-to-date market information, and an understanding of regulatory issues.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur sunt doloremque a nostrum error, adipisci, magni atque iure odio ex dolor, vero dolorem alias.</p>
+          <p>Through our network, Empire Asset Management can offer you access to capital markets investments selected for their potential and their fit with your needs.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia id reiciendis ipsum mollitia saepe eius quos perspiciatis soluta repudiandae veritatis reprehenderit itaque, quod doloribus est! Fugiat sapiente totam nobis.</p>
+          <p>At Empire, we specialize in giving our clients the kind of personal attention that many big brokerage firms have forgotten. Your Empire financial advisor will take charge of assessing your objectives and delivering relevant capital markets opportunities for your consideration.</p>
         </div>
         <div className={styles.section}>
-          <p>To learn more about our brokerage serviecs, please contact us.</p>
+          <p>To learn more about our brokerage services, please contact us.</p>
         </div>
       </div>
     </div>
@@ -91,18 +91,18 @@ const InvestmentBanking = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab sapiente officiis id fuga quod. Commodi exercitationem quidem suscipit, iusto unde modi, repellat quia officiis velit hic numquam laboriosam ex asperiores nulla. Iusto, ad expedita.</p>
+          <p>For those investors searching for the opportunity to participate in issues which may result in above-average growth opportunities, Empire Asset Management offers access to new and secondary equity offerings.</p>
         </div>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cupiditate praesentium eveniet quas consequuntur esse est minima, ducimus eaque cumque.</p>
+          <p>Our exceptional long-term relationships with major institutional banking firms allow us to participate in a variety of syndicate issues with the potential for significant growth.</p>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi saepe doloremque quis expedita placeat iure iste debitis dolores fugit et, quas omnis repellat delectus eveniet iusto est officiis odio, sint dolorum labore. Impedit animi voluptatibus eum voluptates cum! Labore, accusantium.</p>
+          <p>At Empire, you can take advantage of our recognized expertise and thorough due diligence to invest in IPOs and secondary offerings. At the same time, you will benefit from Empire’s outstanding service. We believe in treating clients with a level of attention and responsiveness that results in long-term relationships.</p>
         </div>
         <div className={styles.section}>
-          <p>To learn more about our syndicate serviecs, please contact us.</p>
+          <p>For more information about our syndicate services, please contact us.</p>
         </div>
       </div>
     </div>
