@@ -2,6 +2,9 @@
   padding-bottom: 40px;
   width: 100%;
 
+  // handles 100% height for FF/IE
+  display: inline-block;
+
   .brokercheck {
     display: flex;
     justify-content: flex-end;
@@ -23,6 +26,7 @@
       margin: 0;
       min-width: 100%;
       height: 600px;
+      object-fit: cover;
     }
 
     // select caption
@@ -33,9 +37,9 @@
 
         position: absolute;
         top: 130px;
-        right: 979px;
-        bottom: 416px;
-        left: 386px;
+        left: 20%;
+        width: 581px;
+        margin: 0;
 
         letter-spacing: 4px;
 
@@ -52,10 +56,17 @@
     justify-content: space-between;
     margin-top: 40px;
 
+    > * {
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+
     img {
       object-fit: cover;
       margin: 0;
       width: 624px;
+      min-height: 100%;
     }
 
     // target caption

@@ -2,8 +2,12 @@
   // @todo: need this for all containers? Only noticable at end of container
   height: 100%;
 
+  // handles 100% height for FF/IE
+  display: inline-block;
+
   img {
-    max-height: 240px;
+    min-height: 240px;
+    object-fit: cover;
   }
 
   h2 {
@@ -37,7 +41,6 @@
         display: block;
         text-transform: uppercase;
         color: #333A54;
-        font-family: 'libre franklin semibold';
         font-size: 12px;
         font-weight: 600;
         line-height: 24px;
@@ -65,6 +68,11 @@
         .submit {
           background-color: #333A54;
           color: #F5F4F1;
+        }
+
+        .disabled {
+          background-color:#F5F4F1;
+          cursor: not-allowed;
         }
 
         .clear {
