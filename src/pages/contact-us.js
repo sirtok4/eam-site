@@ -11,15 +11,6 @@ const isValidEmail = value => {
   return VALID_EMAIL_PATTERN.test(value)
 }
 
-// reset form
-const handleReset = e => {
-  /**
-   * @todo: must reset emailInput state; move into Component
-   */
-  e.preventDefault()
-  document.getElementById('contact-form').reset()
-}
-
 class ContactUs extends Component {
   constructor (props) {
     super(props)
@@ -29,6 +20,7 @@ class ContactUs extends Component {
     }
 
     this.handleChange = this.handleChange.bind(this)
+    this.handleReset = this.handleReset.bind(this)
   }
 
   handleChange (e) {
@@ -47,6 +39,17 @@ class ContactUs extends Component {
     }
   }
 
+  handleReset (e) {
+    e.preventDefault()
+
+    document.getElementById('contact-form').reset()
+
+    this.setState({
+      isEmailValid: false,
+      emailInput: ''
+    })
+  }
+
   render () {
     const { isEmailValid, emailInput } = this.state
 
@@ -60,9 +63,9 @@ class ContactUs extends Component {
             <p>To find out if a relationship with Empire is right for you, please contact us today.</p>
             <form
               id='contact-form'
-              // name='contact'
+              name='contact'
               method='POST'
-              // data-netlify='true'
+              data-netlify='true'
             >
               <div className={styles.section}>
                 <div className={styles.field}>
@@ -95,7 +98,7 @@ class ContactUs extends Component {
                   >
                     Submit
                   </button>
-                  <button className={styles.clear} onClick={handleReset}>Clear</button>
+                  <button className={styles.clear} onClick={this.handleReset}>Clear</button>
                 </div>
               </div>
             </form>
