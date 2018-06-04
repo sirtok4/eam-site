@@ -13,6 +13,9 @@ const isValidEmail = value => {
 
 // reset form
 const handleReset = e => {
+  /**
+   * @todo: must reset emailInput state; move into Component
+   */
   e.preventDefault()
   document.getElementById('contact-form').reset()
 }
@@ -21,26 +24,31 @@ class ContactUs extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      isEmailValid: false
+      isEmailValid: false,
+      emailInput: ''
     }
 
     this.handleChange = this.handleChange.bind(this)
   }
 
   handleChange (e) {
-    if (isValidEmail(e.target.value)) {
+    const emailInput = e.target.value
+
+    if (isValidEmail(emailInput)) {
       this.setState({
-        isEmailValid: true
+        isEmailValid: true,
+        emailInput
       })
     } else {
       this.setState({
-        isEmailValid: false
+        isEmailValid: false,
+        emailInput
       })
     }
   }
 
   render () {
-    const { isEmailValid } = this.state
+    const { isEmailValid, emailInput } = this.state
 
     return (
       <div className={styles.contactUsContainer}>
@@ -54,9 +62,6 @@ class ContactUs extends Component {
               id='contact-form'
               // name='contact'
               method='POST'
-              onSubmit={(values) => {
-                console.log('values', values)
-              }}
               // data-netlify='true'
             >
               <div className={styles.section}>
@@ -72,7 +77,7 @@ class ContactUs extends Component {
 
                 <div className={styles.field}>
                   <label htmlFor='email'>Email Address</label>
-                  <input id='email' name='email' type='email' onChange={this.handleChange} />
+                  <input id='email' name='email' type='email' value={emailInput} onChange={this.handleChange} />
                 </div>
 
 
@@ -82,7 +87,14 @@ class ContactUs extends Component {
                 </div>
 
                 <div className={styles.field}>
-                  <button className={styles.submit} type='submit' disabled={!isEmailValid}>Submit</button>
+                  <button
+                    className={isEmailValid ? styles.submit : styles.disabled}
+                    type='submit'
+                    disabled={!isEmailValid}
+                    title='Please submit with a valid email address'
+                  >
+                    Submit
+                  </button>
                   <button className={styles.clear} onClick={handleReset}>Clear</button>
                 </div>
               </div>
