@@ -18,7 +18,12 @@ const ContactUs = () => (
       <div className={styles.left}>
         <h2>Email Us</h2>
         <p>To find out if a relationship with Empire is right for you, please contact us today.</p>
-        <form id='contact-form' name='contact' method='POST' data-netlify='true'>
+        <form
+          id='contact-form'
+          name='contact'
+          method='POST'
+          data-netlify='true'
+        >
           <div className={styles.section}>
             <div className={styles.field}>
               <label htmlFor='name'>Full Name</label>
@@ -68,7 +73,7 @@ const ContactUs = () => (
             </div>
             <div>
               <label>Email:</label>
-              <p><a href='mailto:webmaster@example.com'>info@empiream.com</a></p>
+              <p><a href='mailto:info@empiream.com'>info@empiream.com</a></p>
             </div>
           </div>
         </div>
