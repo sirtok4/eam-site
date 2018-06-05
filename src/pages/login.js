@@ -20,7 +20,7 @@ const Login = () => (
       <div className={styles.field}>
         <div className={styles.labelWithLink}>
           <label htmlFor='userId'>User ID</label>
-          <a href='#'>User ID &amp; Password Help</a>
+          <a href='https://www.investor-connect.com/WMConnect/ConnectWeb/forgotpassword/RBCConnectForgotPasswordHelp.invoke' target='_blank'>User ID &amp; Password Help</a>
         </div>
         <input id='userId' name='userId' type='text' />
       </div>
@@ -28,7 +28,7 @@ const Login = () => (
       <div className={styles.field}>
         <div className={styles.labelWithLink}>
           <label htmlFor='password'>Password</label>
-          <a href='#'>Forgot Password?</a>
+          <a href='https://www.investor-connect.com/WMConnect/ConnectWeb/forgotpassword/RBCConnectForgotPasswordView.invoke' target='_blank'>Forgot Password?</a>
         </div>
         <input id='password' name='password' type='password' />
       </div>
@@ -54,8 +54,8 @@ const Login = () => (
 
       <div className={styles.field}>
         <div className={styles.links}>
-          <a href='#'>Need an Account? Register Now</a>
-          <a href='#'>Investor Connect&reg; Tour</a>
+          <a href='https://www.investor-connect.com/WMConnect/ConnectWeb/registration/RBCConnectRegistrationView.invoke' target='_blank'>Need an Account? Register Now</a>
+          <a href='http://www.rbcplayer.com/connect/cstour' target='_blank'>Investor Connect&reg; Tour</a>
         </div>
       </div>
     </div>
