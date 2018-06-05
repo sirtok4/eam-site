@@ -29,7 +29,7 @@ const AboutEmpire = () => (
       x={{ label: 'Our Philosophy', location: '#OurPhilosophy' }}
       y={{ label: 'Relationships Matter', location: '#RelationshipsMatter' }}
     />
-    <a id='OurPhilosophy' />
+    <a id='OurPhilosophy' className={styles.topAnchor} />
     <Banner src={banner1} caption='Clients Come First.' />
     <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory and management services through our high net worth individual, corporate and institutional client base.</div>
     <div className={styles.stdContent}>

@@ -13,7 +13,8 @@ const Brokerage = () => (
       x={{ label: 'Transactional Brokerage', location: '#TransactionalBrokerage' }}
       y={{ label: 'Institutional Research, Sales, and Trading', location: '#ResearchSalesAndTrading' }}
     />
-    <a id='TransactionalBrokerage' />
+
+    <a id='TransactionalBrokerage' className={styles.topAnchor} />
     <Banner src={banner1} caption='One-On-One Service' />
 
     <div className={styles.callout}>
