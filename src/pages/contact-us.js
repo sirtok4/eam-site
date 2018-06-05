@@ -62,7 +62,7 @@ class ContactUs extends Component {
             <h2>Email Us</h2>
             <p>To find out if a relationship with Empire is right for you, please contact us today.</p>
             <form
-              id='contact-form'
+              id='contact-form-v2'
               name='contact'
               method='POST'
               data-netlify='true'
