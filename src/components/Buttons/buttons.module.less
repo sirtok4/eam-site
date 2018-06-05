@@ -6,34 +6,36 @@
 
   font-family: 'libre franklin medium';
 
-  button {
-    min-width: 50%;
+  a {
+    width: 100%;
     border: none;
+    height: 100%;
 
-    &.blue {
-      background-color: #333A54;
-      a {
-        color: #F5F4F1
-      }
-    }
+    display: block;
+    text-decoration: none;
 
-    &.gray {
-      background-color: #F5F4F1;
-      a {
-        color: #333A54;
-      }
-    }
-
-    a {
-      display: block;
-      text-decoration: none;
+    > button {
+      width: inherit;
+      height: 100%;
+      cursor: pointer;
+      border: none;
       text-transform: uppercase;
       font-size: 16px;
       letter-spacing: .5px;
+
+      &.blue {
+        background-color: #333A54;
+        color: #F5F4F1
+      }
+
+      &.gray {
+        background-color: #F5F4F1;
+        color: #333A54;
+      }
     }
   }
 
-  button:not(:last-child) {
+  a:not(:last-child) {
     margin-right: 24px;
   }
 }
