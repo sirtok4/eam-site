@@ -9,6 +9,10 @@ const BUSINESS_CONTINUITY_PLAN = 'businessContinuityPlan'
 const PRIVACY_PLAN = 'privacyPlan'
 const REPORTING = '606reporting'
 
+const isActivePage = (currentPage, page) => {
+  return currentPage === page
+}
+
 class ClientsRights extends Component {
   constructor (props) {
     super(props)
@@ -20,18 +24,21 @@ class ClientsRights extends Component {
     this.handlePageChange = this.handlePageChange.bind(this)
   }
 
-  handlePageChange (e) {
-    console.log('e', e.target.value)
+  handlePageChange ({ target }) {
+    this.setState({
+      currentPage: target.value
+    })
   }
 
   render () {
+    const { currentPage } = this.state
     return (
       <div className={styles.clientsRightsContainer}>
         <ButtonGroup
-          a={{ label: 'Clients Rigths & Protections', onClick: this.handlePageChange, value: CLIENTS_RIGHTS }}
-          b={{ label: 'Business Continuity Plan', onClick: this.handlePageChange, value: BUSINESS_CONTINUITY_PLAN }}
-          x={{ label: 'Privacy Policy', onClick: this.handlePageChange, value: PRIVACY_PLAN }}
-          y={{ label: '606 Reporting', onClick: this.handlePageChange, value: REPORTING }}
+          a={{ label: 'Clients Rigths & Protections', isActive: isActivePage(currentPage, CLIENTS_RIGHTS), onClick: this.handlePageChange, value: CLIENTS_RIGHTS }}
+          b={{ label: 'Business Continuity Plan', isActive: isActivePage(currentPage, BUSINESS_CONTINUITY_PLAN), onClick: this.handlePageChange, value: BUSINESS_CONTINUITY_PLAN }}
+          x={{ label: 'Privacy Policy', isActive: isActivePage(currentPage, PRIVACY_PLAN), onClick: this.handlePageChange, value: PRIVACY_PLAN }}
+          y={{ label: '606 Reporting', isActive: isActivePage(currentPage, REPORTING), onClick: this.handlePageChange, value: REPORTING }}
         />
       </div>
     )
