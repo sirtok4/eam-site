@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import ButtonGroup from '../components/Buttons/ButtonGroup'
+import ClientsRightsContent from '../components/ClientsRights/ClientsRightsContent'
+import BusinessContinuityPlan from '../components/ClientsRights/BusinessContinuityPlan'
 
 import styles from './clients-rights.module.less'
 
@@ -22,6 +24,7 @@ class ClientsRights extends Component {
     }
 
     this.handlePageChange = this.handlePageChange.bind(this)
+    this.getSelectedPage = this.getSelectedPage.bind(this)
   }
 
   handlePageChange ({ target }) {
@@ -30,8 +33,29 @@ class ClientsRights extends Component {
     })
   }
 
+  getSelectedPage (page) {
+    switch(page) {
+      case CLIENTS_RIGHTS:
+        return <ClientsRightsContent />
+
+      case BUSINESS_CONTINUITY_PLAN:
+        return <BusinessContinuityPlan />
+
+      case PRIVACY_PLAN:
+        return <div>Privacy Plan</div>
+
+      case REPORTING:
+        return <div>606 Reporting</div>
+
+      default:
+        return <ClientsRightsContent />
+    }
+  }
+
   render () {
     const { currentPage } = this.state
+    const selectedPage = this.getSelectedPage(currentPage)
+
     return (
       <div className={styles.clientsRightsContainer}>
         <ButtonGroup
@@ -40,6 +64,9 @@ class ClientsRights extends Component {
           x={{ label: 'Privacy Policy', isActive: isActivePage(currentPage, PRIVACY_PLAN), onClick: this.handlePageChange, value: PRIVACY_PLAN }}
           y={{ label: '606 Reporting', isActive: isActivePage(currentPage, REPORTING), onClick: this.handlePageChange, value: REPORTING }}
         />
+        <div className={styles.stdContent}>
+          { selectedPage }
+        </div>
       </div>
     )
   }
