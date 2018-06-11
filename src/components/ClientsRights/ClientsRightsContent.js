@@ -39,7 +39,7 @@ const ClientsRightsContent = () => (
     <div className={styles.section}>
       <h4>Further Safeguards</h4>
       <p>
-        As your custodian, it is required by the SEC to file monthly and quarterly financial and operational reports (FOCUS reports) within 17 business days of the month’s end. The quarterly report contains financial statements, including:
+        As your custodian, it is required by the SEC to file monthly and quarterly financial and operational reports (FOCUS reports) within 17 business days of the month&#39;s end. The quarterly report contains financial statements, including:
       </p>
     </div>
     <div className={styles.className}>
@@ -48,7 +48,7 @@ const ClientsRightsContent = () => (
           <p>Statement of financial condition</p>
         </li>
         <li>
-          <p>Income statement and statement of changes in stockholders’ equity</p>
+          <p>Income statement and statement of changes in stockholders&#39; equity</p>
         </li>
         <li>
           <p>Regulatory schedules, including a computation of net capital, a reserve formula computation, and other key financial and operational data</p>
@@ -83,7 +83,7 @@ const ClientsRightsContent = () => (
       </p>
     </div>
     <div className={styles.fineprint}>
-      * The inclusion of information in connection with the regulatory oversight under which Empire Asset Management and RBC Correspondent Services a division of RBC Capital Markets, LLC operate are not intended to imply or represent an endorsement, indemnification or guarantee by any regulatory authority, of the firms' practices, products or services.
+      * The inclusion of information in connection with the regulatory oversight under which Empire Asset Management and RBC Correspondent Services a division of RBC Capital Markets, LLC operate are not intended to imply or represent an endorsement, indemnification or guarantee by any regulatory authority, of the firms&#39; practices, products or services.
     </div>
   </div>
 )

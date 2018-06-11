@@ -7,13 +7,13 @@ const PrivacyPolicy = () => (
     <div className={styles.section}>
       <h4 className={styles.boldheader}>
         Our commitment to your privacy: Empire Asset Management Company and
-        Empire Financial Management Company ("Empire") has a policy of
+        Empire Financial Management Company (&#34;Empire&#34;) has a policy of
         protecting the confidentiality and security of information Empire
         collects about its customers. Empire will not share non-public personal
-        Information about you ("Information") with third parties without your
-        consent, except for the specific purposes described below. This notice
-        describes the Information Empire may gather and the circumstances under
-        which Empire may share it.
+        Information about you (&#34;Information&#34;) with third parties without
+        your consent, except for the specific purposes described below. This
+        notice describes the Information Empire may gather and the circumstances
+        under which Empire may share it.
       </h4>
     </div>
 
@@ -49,8 +49,8 @@ const PrivacyPolicy = () => (
     <div className={styles.section}>
       <ul className={styles.wideItems}>
         <li>
-          To Empire's clearing firm, RBC Correspondent Services a division of
-          RBC Capital Markets, LLC , its attorneys, accountants, auditors,
+          To Empire&#39;s clearing firm, RBC Correspondent Services a division
+          of RBC Capital Markets, LLC , its attorneys, accountants, auditors,
           administrators or other service providers;
         </li>
         <li>
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => (
         </li>
         <li>
           In connection with a proposed or actual sale, merger, or transfer of
-          all or a portion of Empire's business;
+          all or a portion of Empire&#39;s business;
         </li>
         <li>
           To protect or defend against fraud, unauthorized or violative
@@ -80,31 +80,59 @@ const PrivacyPolicy = () => (
     <div className={styles.section}>
       <p>
         <b>To Whom This Policy Applies:</b> This Privacy Policy applies to
-        Empire's customers.
+        Empire&#39;s customers.
       </p>
     </div>
 
     <div className={styles.section}>
       <p>
-        <b>Opt Out Provision:</b> Please be advised that you have a right to "opt out" of the information sharing as set forth above however, the firm will be unable to establish an account for you as the sharing that occurs is necessary to establish and maintain your account through our clearing firm, RBC Correspondent Services a division of RBC Capital Markets, LLC. Further, all other information sharing in which we participate is required by the firm's regulators (FINRA and the U.S. Securities and Exchange Commission) and/or the federal/state judicial system. Additionally, the firm reserves its right to share appropriate personal information about you with our attorneys, accountants, auditors and service providers in order to effectively discharge its obligations with federal securities laws and other securities regulations.
+        <b>Opt Out Provision:</b> Please be advised that you have a right to
+        &#34;opt out&#34; of the information sharing as set forth above however,
+        the firm will be unable to establish an account for you as the sharing
+        that occurs is necessary to establish and maintain your account through
+        our clearing firm, RBC Correspondent Services a division of RBC Capital
+        Markets, LLC. Further, all other information sharing in which we
+        participate is required by the firm&#39;s regulators (FINRA and the U.S.
+        Securities and Exchange Commission) and/or the federal/state judicial
+        system. Additionally, the firm reserves its right to share appropriate
+        personal information about you with our attorneys, accountants, auditors
+        and service providers in order to effectively discharge its obligations
+        with federal securities laws and other securities regulations.
       </p>
     </div>
 
     <div className={styles.section}>
       <p>
-        <b>Protection of Information:</b> Empire maintains physical, electronic and procedural safeguards that comply with federal standards to protect customer Information. Empire restricts access to the personal and account Information of customers to those employees who are required to possess that Information to fulfill their job responsibilities.
+        <b>Protection of Information:</b> Empire maintains physical, electronic
+        and procedural safeguards that comply with federal standards to protect
+        customer Information. Empire restricts access to the personal and
+        account Information of customers to those employees who are required to
+        possess that Information to fulfill their job responsibilities.
       </p>
     </div>
 
     <div className={styles.section}>
       <p>
-        <b>Access to and Correction of Information:</b> If you desire to review any file Empire may maintain regarding your Information, please contact your broker. If you or your broker notifies Empire that any Information is incorrect, Empire will review it. If Empire agrees, Empire will correct its records. If Empire does not agree, you may submit a statement of dispute, which Empire will include in future disclosures of the disputed Information. Information collected in connection with, or in anticipation of, any claim or legal proceeding will not be made available.
+        <b>Access to and Correction of Information:</b> If you desire to review
+        any file Empire may maintain regarding your Information, please contact
+        your broker. If you or your broker notifies Empire that any Information
+        is incorrect, Empire will review it. If Empire agrees, Empire will
+        correct its records. If Empire does not agree, you may submit a
+        statement of dispute, which Empire will include in future disclosures of
+        the disputed Information. Information collected in connection with, or
+        in anticipation of, any claim or legal proceeding will not be made
+        available.
       </p>
     </div>
 
     <div className={styles.section}>
       <p>
-        <b>Further Information:</b> Empire reserves the right to change this Privacy Policy. The examples contained within this Privacy Policy are illustrations and they are not intended to be exclusive. This notice complies with Federal law and SEC re gulations regarding privacy. You may have additional rights under other foreign or domestic laws that may apply to you.
+        <b>Further Information:</b> Empire reserves the right to change this
+        Privacy Policy. The examples contained within this Privacy Policy are
+        illustrations and they are not intended to be exclusive. This notice
+        complies with Federal law and SEC re gulations regarding privacy. You
+        may have additional rights under other foreign or domestic laws that may
+        apply to you.
       </p>
     </div>
   </div>
