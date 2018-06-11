@@ -3,6 +3,7 @@ import ButtonGroup from '../components/Buttons/ButtonGroup'
 import ClientsRightsContent from '../components/ClientsRights/ClientsRightsContent'
 import BusinessContinuityPlan from '../components/ClientsRights/BusinessContinuityPlan'
 import PrivacyPolicy from '../components/ClientsRights/PrivacyPolicy'
+import Reporting from '../components/ClientsRights/Reporting'
 
 import styles from './clients-rights.module.less'
 
@@ -46,7 +47,7 @@ class ClientsRights extends Component {
         return <PrivacyPolicy />
 
       case REPORTING:
-        return <div>606 Reporting</div>
+        return <Reporting />
 
       default:
         return <ClientsRightsContent />
