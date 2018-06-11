@@ -39,6 +39,7 @@ class ContactUs extends Component {
     }
   }
 
+  // not working in IE11, perhaps with 'onClick' polyfill?
   handleReset (e) {
     e.preventDefault()
 
@@ -98,7 +99,7 @@ class ContactUs extends Component {
                   >
                     Submit
                   </button>
-                  <button type='button' className={styles.clear} onClick={this.handleReset}>Clear</button>
+                  {/* <button type='button' className={styles.clear} onClick={this.handleReset}>Clear</button> */}
                 </div>
               </div>
             </form>
