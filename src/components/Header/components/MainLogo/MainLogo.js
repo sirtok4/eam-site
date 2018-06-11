@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../../../../../assets/images/Empire-Logo-Main.svg'
+import logo from '../../../../../assets/images/Empire Full@2x.png'
 
 import styles from './main-logo.module.less'
 
