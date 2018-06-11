@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './clients-rights-content.module.less'
 
 const BusinessContinuityPlan = () => (
-  <div className={styles.clientRightsContainer}>
+  <div className={styles.clientsRightsContainer}>
     <div className={styles.section}>
       <p>
         Securities industry regulations require that brokerage firms provide
@@ -16,7 +16,7 @@ const BusinessContinuityPlan = () => (
       </p>
     </div>
     <div className={styles.section}>
-      <ul>
+      <ul className={styles.wideItems}>
         <li>
           If our primary physical location and the local network became
           unavailable, due to any circumstances such as a power outage, internet
