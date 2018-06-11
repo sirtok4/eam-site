@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  margin-bottom: 24px;
+
+  font-family: 'libre franklin medium';
+
+  a {
+    width: 100%;
+    border: none;
+    height: 100%;
+
+    display: block;
+    text-decoration: none;
+
+    > button {
+      width: inherit;
+      height: 100%;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: .5px;
+
+      &.active {
+        background-color: #333A54;
+        color: #F5F4F1
+      }
+
+      &.inactive {
+        background-color: #F5F4F1;
+        color: #333A54;
+      }
+    }
+  }
+
+  a:not(:last-child) {
+    margin-right: 24px;
+  }
+}

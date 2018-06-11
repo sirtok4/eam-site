@@ -37,7 +37,7 @@
     }
 
     .field {
-      margin: 12px 0;
+      margin: 0;
       width: 100%;
 
       .labelWithLink {
@@ -70,18 +70,22 @@
         margin-bottom: 0;
       }
 
-      button {
-        margin-top: 12px;
-        height: 40px;
-        width: inherit;
-        border: none;
-        font-family: 'libre franklin light';
-        font-size: 16px;
-        line-height: 16px;
-        text-align: center;
+      a.button {
+        width: 100%;
 
-        &:not(:last-child) {
-          margin-right: 24px;
+        button {
+          cursor: pointer;
+          height: 40px;
+          width: inherit;
+          border: none;
+          font-family: 'libre franklin light';
+          font-size: 16px;
+          line-height: 16px;
+          text-align: center;
+
+          &:not(:last-child) {
+            margin-right: 24px;
+          }
         }
       }
 
