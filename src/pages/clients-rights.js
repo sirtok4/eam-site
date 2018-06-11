@@ -29,9 +29,13 @@ class ClientsRights extends Component {
     this.getSelectedPage = this.getSelectedPage.bind(this)
   }
 
-  handlePageChange ({ target }) {
+  handlePageChange (e) {
+    console.log('e', e)
+
+    e.preventDefault()
+
     this.setState({
-      currentPage: target.value
+      currentPage: e.target.value
     })
   }
 
