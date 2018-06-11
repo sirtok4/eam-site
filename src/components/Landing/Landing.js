@@ -7,7 +7,7 @@ import photo2 from '../../../assets/images/sfg-homepage-brokerage-base.png'
 import photo3 from '../../../assets/images/sfg-homepage-asset_management-base.png'
 import photo4 from '../../../assets/images/sfg-homepage-investment_banking-base.png'
 
-import brokerCheck from '../../../assets/images/FINRA_BrokerCheck-Base.svg'
+import brokerCheck from '../../../assets/images/FINRA BrokerCheck - Base@2x.png'
 
 import styles from './landing.module.less'
 
