@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ButtonGroup from '../components/Buttons/ButtonGroup'
 import ClientsRightsContent from '../components/ClientsRights/ClientsRightsContent'
 import BusinessContinuityPlan from '../components/ClientsRights/BusinessContinuityPlan'
+import PrivacyPolicy from '../components/ClientsRights/PrivacyPolicy'
 
 import styles from './clients-rights.module.less'
 
@@ -42,7 +43,7 @@ class ClientsRights extends Component {
         return <BusinessContinuityPlan />
 
       case PRIVACY_PLAN:
-        return <div>Privacy Plan</div>
+        return <PrivacyPolicy />
 
       case REPORTING:
         return <div>606 Reporting</div>
