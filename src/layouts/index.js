@@ -1,3 +1,4 @@
+// Import babel-polyfill here or gatsby-browser?
 import 'babel-polyfill'
 
 import React from 'react'
