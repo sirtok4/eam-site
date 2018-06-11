@@ -42,7 +42,7 @@ class ContactUs extends Component {
   handleReset (e) {
     e.preventDefault()
 
-    document.getElementById('contact-form').reset()
+    document.getElementById('contact-form-v2').reset()
 
     this.setState({
       isEmailValid: false,
