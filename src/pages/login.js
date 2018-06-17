@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
 import styles from './login.module.less'
-import lock from '../../assets/images/lock-close-fill.svg'
 
 // import banner1 from '../../assets/images/mfg-account_login-dark.png'
 import banner1 from '../../assets/images/account-login/mfg-account_login-dark-min.png'
