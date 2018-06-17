@@ -2,10 +2,7 @@ import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 import Buttons from '../components/Buttons/Buttons'
 
-// import banner1 from '../../assets/images/mfg-investment_banking-1.png'
 import banner1 from '../../assets/images/investment-banking/mfg-investment_banking-1-min.png'
-
-// import banner2 from '../../assets/images/mfg-investment_banking-2.png'
 import banner2 from '../../assets/images/investment-banking/mfg-investment_banking-2-min.png'
 
 import styles from './investment-banking.module.less'

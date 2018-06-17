@@ -1,7 +1,6 @@
 import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
-// import banner1 from '../../assets/images/mfg-asset_management.png'
 import banner1 from '../../assets/images/asset-management/mfg-asset_management-min.png'
 
 import styles from './asset-management.module.less'
