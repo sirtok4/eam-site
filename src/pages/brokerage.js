@@ -2,8 +2,8 @@ import React from 'react'
 import Buttons from '../components/Buttons/Buttons'
 import Banner from '../components/Images/Banner/Banner'
 
-import banner1 from '../../assets/images/mfg-brokerage-1.png'
-import banner2 from '../../assets/images/mfg-brokerage-2.png'
+import banner1 from '../../assets/images/brokerage/mfg-brokerage-1-min.png'
+import banner2 from '../../assets/images/brokerage/mfg-brokerage-2-min.png'
 
 import styles from './brokerage.module.less'
 
