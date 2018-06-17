@@ -1,7 +1,8 @@
 import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
-import banner1 from '../../assets/images/mfg-asset_management@2x.png'
+import banner1 from '../../assets/images/mfg-asset_management.png'
+
 import styles from './asset-management.module.less'
 
 const AssetManagement = () => (
