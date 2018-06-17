@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Banner from '../components/Images/Banner/Banner'
 
-import banner1 from '../../assets/images/mfg-contact_us.png'
+// import banner1 from '../../assets/images/mfg-contact_us.png'
+import banner1 from '../../assets/images/contact-us/mfg-contact_us-min.png'
 
 import styles from './contact-us.module.less'
 
