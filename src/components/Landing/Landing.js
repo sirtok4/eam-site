@@ -2,12 +2,20 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Image from '../Images/Image'
 
-import photo1 from '../../../assets/images/mfg-homepage.png'
-import photo2 from '../../../assets/images/sfg-homepage-brokerage-base.png'
-import photo3 from '../../../assets/images/sfg-homepage-asset_management-base.png'
-import photo4 from '../../../assets/images/sfg-homepage-investment_banking-base.png'
+// import photo1 from '../../../assets/images/mfg-homepage.png'
+import photo1 from '../../../assets/images/landing/mfg-homepage-min.png'
 
-import brokerCheck from '../../../assets/images/FINRA BrokerCheck - Base@2x.png'
+// import photo2 from '../../../assets/images/sfg-homepage-brokerage-base.png'
+import photo2 from '../../../assets/images/landing/sfg-homepage-brokerage-base-min.png'
+
+// import photo3 from '../../../assets/images/sfg-homepage-asset_management-base.png'
+import photo3 from '../../../assets/images/landing/sfg-homepage-asset_management-base-min.png'
+
+// import photo4 from '../../../assets/images/sfg-homepage-investment_banking-base.png'
+import photo4 from '../../../assets/images/landing/sfg-homepage-investment_banking-base-min.png'
+
+// import brokerCheck from '../../../assets/images/FINRA BrokerCheck - Base@2x.png'
+import brokerCheck from '../../../assets/images/landing/FINRA BrokerCheck - Base@2x-min.png'
 
 import styles from './landing.module.less'
 
