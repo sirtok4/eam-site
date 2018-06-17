@@ -3,11 +3,20 @@ import Buttons from '../components/Buttons/Buttons'
 import Banner from '../components/Images/Banner/Banner'
 import Image from '../components/Images/Image'
 
-import banner1 from '../../assets/images/mfg-about_empire-1.png'
-import banner2 from '../../assets/images/mfg-about_empire-2.png'
-import partner1 from '../../assets/images/FINRA-Logo.png'
-import partner2 from '../../assets/images/MSRB-Logo.png'
-import partner3 from '../../assets/images/SIPC-Logo.png'
+// import banner1 from '../../assets/images/mfg-about_empire-1.png'
+import banner1 from '../../assets/images/about/mfg-about_empire-1-min.png'
+
+// import banner2 from '../../assets/images/mfg-about_empire-2.png'
+import banner2 from '../../assets/images/about/mfg-about_empire-2-min.png'
+
+// import partner1 from '../../assets/images/FINRA-Logo.png'
+import partner1 from '../../assets/images/about/FINRA-Logo-min.png'
+
+// import partner2 from '../../assets/images/MSRB-Logo.png'
+import partner2 from '../../assets/images/about/MSRB-Logo-min.png'
+
+// import partner3 from '../../assets/images/SIPC-Logo.png'
+import partner3 from '../../assets/images/about/SIPC-Logo-min.png'
 
 import styles from './about-empire.module.less'
 
