@@ -2,8 +2,9 @@ import React from 'react'
 import Banner from '../components/Images/Banner/Banner'
 import Buttons from '../components/Buttons/Buttons'
 
-import banner1 from '../../assets/images/mfg-investment_banking-1@2x.png'
-import banner2 from '../../assets/images/mfg-investment_banking-2@2x.png'
+import banner1 from '../../assets/images/mfg-investment_banking-1.png'
+import banner2 from '../../assets/images/mfg-investment_banking-2.png'
+
 import styles from './investment-banking.module.less'
 
 const InvestmentBanking = () => (
