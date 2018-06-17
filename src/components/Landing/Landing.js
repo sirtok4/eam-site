@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Image from '../Images/Image'
-import photo1 from '../../../assets/images/mfg-homepage@2x.png'
 
+import photo1 from '../../../assets/images/mfg-homepage.png'
 import photo2 from '../../../assets/images/sfg-homepage-brokerage-base.png'
 import photo3 from '../../../assets/images/sfg-homepage-asset_management-base.png'
 import photo4 from '../../../assets/images/sfg-homepage-investment_banking-base.png'
