@@ -6,29 +6,35 @@
 
   font-family: 'libre franklin medium';
 
-  button {
+  // target Links
+  a {
     width: 100%;
     height: 100%;
-    height: 100%;
-    outline: none;
-    cursor: pointer;
-    border: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: .5px;
 
-    &.active {
-      background-color: #333A54;
-      color: #F5F4F1
+    &:not(:last-child) {
+      margin-right: 24px;
     }
 
-    &.inactive {
-      background-color: #F5F4F1;
-      color: #333A54;
-    }
-  }
+    button {
+      width: 100%;
+      height: 100%;
+      height: 100%;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: .5px;
 
-  button:not(:last-child) {
-    margin-right: 24px;
+      &.active {
+        background-color: #333A54;
+        color: #F5F4F1
+      }
+
+      &.inactive {
+        background-color: #F5F4F1;
+        color: #333A54;
+      }
+    }
   }
 }
