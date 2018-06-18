@@ -10,8 +10,8 @@ const Reporting = () => (
     <ButtonGroup
       a={{ label: 'Clients Rigths & Protections', to: '/clients-rights', isActive: false }}
       b={{ label: 'Business Continuity Plan', to: '/business-continuity-plan', isActive: false }}
-      x={{ label: 'Privacy Policy', isActive: false }}
-      y={{ label: '606 Reporting', isActive: true }}
+      x={{ label: 'Privacy Policy', to: '/privacy-policy', isActive: false }}
+      y={{ label: '606 Reporting', to: '/reporting', isActive: true }}
     />
     <div className={styles.stdContent}>
       <Content />
