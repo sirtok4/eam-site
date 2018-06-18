@@ -11,7 +11,9 @@ const Layout = ({ children, data }) => (
   <div className={styles.mainContainer}>
     <Helmet
       title='Empire Asset Management'
-    />
+    >
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js' />
+    </Helmet>
     <Header siteTitle='Empire Asset Management' />
     <div className={styles.mainContent}>
       {children()}
