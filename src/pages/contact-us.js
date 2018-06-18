@@ -53,6 +53,8 @@ class ContactUs extends Component {
 
   render () {
     const { isEmailValid, emailInput } = this.state
+    console.log('isEmailValid', isEmailValid)
+    console.log('emailInput', emailInput)
 
     return (
       <div className={styles.contactUsContainer}>
