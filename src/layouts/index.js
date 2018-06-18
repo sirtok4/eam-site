@@ -1,6 +1,3 @@
-// Import babel-polyfill here or gatsby-browser?
-import 'babel-polyfill'
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
