@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Link from 'gatsby-link'
 import ButtonGroup from '../components/Buttons/ButtonGroup'
-import Content from '../components/ClientsRights/ClientsRightsContent'
+import Content from '../components/ClientsRights/BusinessContinuityPlan'
 
 import styles from './clients-rights.module.less'
 
-const ClientsRights = () => (
+const BusinessContinuityPlan = () => (
   <div className={styles.clientsRightsContainer}>
     <ButtonGroup
-      a={{ label: 'Clients Rigths & Protections', to: '/clients-rights', isActive: true }}
-      b={{ label: 'Business Continuity Plan', to: '/business-continuity-plan', isActive: false }}
+      a={{ label: 'Clients Rigths & Protections', to: '/clients-rights', isActive: false }}
+      b={{ label: 'Business Continuity Plan', to: '/business-continuity-plan', isActive: true }}
       x={{ label: 'Privacy Policy', to: '/privacy-policy', isActive: false }}
       y={{ label: '606 Reporting', to: '/reporting', isActive: false }}
     />
@@ -18,4 +19,4 @@ const ClientsRights = () => (
   </div>
 )
 
-export default ClientsRights
+export default BusinessContinuityPlan
