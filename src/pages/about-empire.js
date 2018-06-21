@@ -31,22 +31,22 @@ const AboutEmpire = () => (
     />
     <a id='OurPhilosophy' className={styles.topAnchor} />
     <Banner src={banner1} caption='Clients Come First.' />
-    <div className={styles.callout}>We provide a wide range of investing, banking, financial advisory and management services through our high net worth individual, corporate and institutional client base.</div>
+    <div className={styles.callout}>We offer a wide range of financial services to institutional and private clients seeking value-added capabilities in brokerage, asset management, research and capital market transactions.</div>
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
           <h4>People</h4>
-          <p>Led by an executive team comprised of Wall Street veterans, our accomplished financial professionals work closely with our clients to innovate and implement effective, goal-focused solutions.</p>
+          <p>Led by an executive team of Wall Street veterans, our team of financial professionals work closely to innovate and implement effective, goal-focused non-conflicted solutions to our customers.</p>
         </div>
         <div className={styles.section}>
           <h4>Background</h4>
-          <p>Established as a FINRA member in 2007, Empire Asset Management initially focused on guiding influential investors to value-added private placements, IPOs, secondary and debt offerings. Emerging stronger from market events that brought down many brokerage firms, Empire today serves thousands of clients across the U.S. and abroad. Our philosophy that clients come first has been a key part of our success, then and now.</p>
+          <p>Empire Asset Management Company is a family-owned full-service financial services company. We focus on providing private investors and active portfolio managers, high quality comprehensive investment solutions. Empire serves thousands of diverse clients across the U.S. and abroad. Our philosophy that clients come first has been a key part of our success, then and now.</p>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
           <h4>Capabilities</h4>
-          <p>Empire’s brokerage capabilities allow clients to plan, execute, and track securities transactions in markets around the world, using a broad array of equity and debt instruments. As an asset manager, we help clients take advantage of private investment opportunities, with emphasis on risk management, global diversification, and customized portfolio modeling. Companies and institutions can reach a wider spectrum of investors through our investment banking expertise, with particular strength in the medical and biotech industries.</p>
+          <p>Empire offers comprehensive brokerage solutions to support both private and institutional investors with our non-conflicted trading and execution services. As an asset manager we house a certified financial planning department, insurance department, retirement specialist and managed asset team. Our Private Client Service team help clients take advantage of alternative investment opportunities, with emphasis on risk management, global diversification, and customized portfolio modeling. Companies and institutions can reach a wider spectrum of investors through our investment banking expertise and capital market transactions, with particular strength in the medical and biotech industries.</p>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ const AboutEmpire = () => (
       </div>
       <div className={styles.right}>
         <div className={styles.section}>
-          <p>Our commitment does not end with an investment. Our financial professionals are dedicated to the progress of each portfolio and to ensure that clients’ understand how they are tracking toward their goals. Through attentive service and reliable access, we work hard to make sure that our clients experience a high-touch service that is responsive to their evolving needs.</p>
+          <p>Our commitment does not end with an investment. Our financial professionals are dedicated to the progress of each portfolio and to ensure that clients’ understand how they are tracking toward their goals. Through attentive service and reliable access, we work hard to make sure that our clients experience a high-touch service that is responsive to their evolving needs. Like a financial concierge, we go beyond investment services to become a complete solution for our clients. We want Empire Asset Management Company to be the kind of place where the CEO knows you, the receptionist recognizes your voice, and you feel you’ve found a partner.</p>
         </div>
       </div>
     </div>
