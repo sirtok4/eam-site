@@ -79,7 +79,7 @@ const ClientsRightsContent = () => (
     </div>
     <div className={styles.section}>
       <p>
-        Because the Securities Investor Protection Act of 1970 affords special benefits to SIPC covered firms, securities in accounts carried by RBC Correspondent Services a division of RBC Capital Markets, LLC are protected in accordance with the Securities Investor Protection Corporation (SIPC) up to $500,000 (including cash claims limited to $250,000).  For details, please visit www.sipc.org.
+        Because the Securities Investor Protection Act of 1970 affords special benefits to SIPC covered firms, securities in accounts carried by RBC Correspondent Services a division of RBC Capital Markets, LLC are protected in accordance with the Securities Investor Protection Corporation (SIPC) up to $500,000 (including cash claims limited to $250,000).  For details, please visit <a className={styles.sipc} href='https://www.sipc.org' target='_blank'>www.sipc.org</a>.
       </p>
     </div>
     <div className={styles.fineprint}>
