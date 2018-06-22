@@ -5,7 +5,6 @@ import Image from '../components/Images/Image'
 
 import banner1 from '../../assets/images/about/mfg-about_empire-1-min.png'
 import banner2 from '../../assets/images/about/mfg-about_empire-2-min.png'
-import partner1 from '../../assets/images/about/FINRA-Logo-min.png'
 import partner2 from '../../assets/images/about/MSRB-Logo-min.png'
 import partner3 from '../../assets/images/about/SIPC-Logo-min.png'
 
@@ -13,9 +12,11 @@ import styles from './about-empire.module.less'
 
 const Partner = ({ name, src, children }) => (
   <div className={styles.partner}>
-    <div className={styles.logo}>
-      <Image src={src} />
-    </div>
+    {
+      src && <div className={styles.logo}>
+        <Image src={src} />
+      </div>
+    }
     <div className={styles.text}>
       <h4>{name}</h4>
       <p>{children}</p>
@@ -66,7 +67,7 @@ const AboutEmpire = () => (
       </div>
     </div>
     <div className={styles.partners}>
-      <Partner name='FINRA' src={partner1}>
+      <Partner name='FINRA'>
         FINRA is dedicated to investor protection and market integrity through effective and efficient regulation of broker-dealer.
       </Partner>
 
