@@ -75,8 +75,8 @@ const AboutEmpire = () => (
         The MSRB protects investors, state and local governments, and the public interest, by promoting a fair and efficient municipal securities market.
       </Partner>
 
-      <Partner name='SICP' src={partner3}>
-        The SICP oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble, and the customer assets are missing.
+      <Partner name='SIPC' src={partner3}>
+        The SIPC oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble, and the customer assets are missing.
       </Partner>
     </div>
   </div>
