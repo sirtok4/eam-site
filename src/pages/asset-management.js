@@ -17,7 +17,7 @@ const AssetManagement = () => (
       <div className={styles.left}>
         <h4>Customized Solutions</h4>
         <div className={styles.section}>
-          <p>Through our registered investment adviser affiliate, Empire Financial Management Company, we provide a full range of customized investment solutions leveraging the expertise of over 5,000 leading asset managers that control risk while maximizing potential for return.  Every investment plan is customized based on a thorough assessment of each client’s unique goals, needs and appetite for risk while remaining cognizant of the changing market environment.</p>
+          <p>Through our registered investment adviser affiliate, Empire Financial Management Company, we provide a full range of customized investment solutions leveraging the expertise of leading asset managers that control risk while maximizing potential for return. Every investment plan is customized based on a thorough assessment of each client’s unique goals, needs and appetite for risk while remaining cognizant of the changing market environment. In an investment world occupied by passive investing, we seek to deliver value added capabilities to those clients who seek to outperform their peer groups.</p>
         </div>
         <div className={styles.section}>
           <p>Our financial advisors are highly skilled in weighting of various asset categories and diversification in formulating a balanced investment plan to meet your investment objectives.</p>
@@ -57,7 +57,7 @@ const AssetManagement = () => (
         </div>
         <div className={styles.section}>
           <h4>Your Investment Plan</h4>
-          <p>Through a careful evaluation and due diligence process that screens over 5,000 investment management firms our financial advisors are able to present our clients with some of the best investment managers who specialize in a broad range of asset classes.  The selection of appropriate managers for your customized investment plan allows us offer you a blended management and allocation strategy that best suits your needs.</p>
+          <p>Through a careful evaluation and due diligence process that screens a broad array of investment possibilities, our financial advisors are able to present clients with some of the best investment managers who specialize in a broad range of asset classes. The selection of appropriate managers for your customized investment plan allows us to offer you a blended management and allocation strategy that best suits your needs.</p>
         </div>
         <div className={styles.section}>
           <h4>Monitoring Your Portfolio</h4>
