@@ -92,7 +92,7 @@ const InvestmentBanking = () => (
     <div className={styles.stdContent}>
       <div className={styles.left}>
         <div className={styles.section}>
-          <p>For those investors searching for the opportunity to participate in issues which may result in above-average growth opportunities, Empire Asset Management offers access to new and secondary equity offerings.</p>
+          <p>For those investors with greater risk tolerances searching for the opportunity to participate in issues which may result in above-average growth opportunities, Empire Asset Management offers access to new and secondary equity offerings.</p>
         </div>
         <div className={styles.section}>
           <p>Our exceptional long-term relationships with major institutional banking firms allow us to participate in a variety of syndicate issues with the potential for significant growth.</p>
