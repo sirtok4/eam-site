@@ -79,7 +79,8 @@ const Brokerage = () => (
       <div className={styles.right}>
         <div className={styles.section}>
           <h4>Trading</h4>
-          <p>Our traders are exceptionally proficient in trading patterns of the growth stocks that are our specialty. We focus on individual industry sectors, which allow us to develop a deep knowledge of the companies and their markets. We execute on all major exchanges, including NYSE, NASDAQ, and OTC, et al.</p>
+          <p>Our traders are exceptionally proficient in trading patterns of the growth stocks that are our specialty. We focus on individual industry sectors, which allow us to develop a deep knowledge of the companies and their markets. We execute on all major exchanges, and offer our institutional clients a robust suite of algorithmic trading.
+</p>
         </div>
         <div className={styles.section}>
           <p>At Empire, our goal is to build long-term relationships by delivering attentive service along with experience, insight and market knowledge. To learn more about our institutional services, please contact us.</p>
