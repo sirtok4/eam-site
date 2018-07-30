@@ -19,7 +19,7 @@ const Landing = () => (
       <Image src={photo1} caption='Build With Us.' />
     </div>
     <div className={styles.group3}>
-      <Link to='/brokerage'><Image src={photo2} caption='Brokerage' /></Link>
+      <Link className={styles.brokerage} to='/brokerage'><Image src={photo2} caption='Brokerage' /></Link>
       <Link to='/asset-management'><Image src={photo3} caption='Asset Management' /></Link>
       <Link to='/investment-banking'><Image src={photo4} caption='Investment Banking' /></Link>
     </div>
