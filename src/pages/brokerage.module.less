@@ -84,3 +84,45 @@
 
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .brokerageContainer {
+    max-width: 480px;
+    margin-bottom: 24px;
+
+    .callout, .stdContent {
+      width: 432px;
+      margin: 24px auto;
+    }
+
+    .callout {
+      font-size: 27px;
+      line-height: 36px;
+    }
+
+    .stdContent {
+      display: block;
+
+      .left, .right {
+        width: 100%;
+      }
+
+      .left {
+        margin-bottom: 24px;
+      }
+    }
+
+    // targets 2nd Banner
+    div:nth-child(7) {
+      > div {
+        > div {
+          top: 24%;
+          width: 70%;
+          line-height: 30px;
+        }
+      }
+    }
+
+  }
+}
