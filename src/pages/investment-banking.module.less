@@ -43,3 +43,43 @@
     display: block;
   }
 }
+
+// Responsive - Tablet
+@media (max-width: 768px) {
+  .investmentBankingContainer {
+    max-width: 768px;
+    margin-bottom: 24px;
+
+    // targets 2nd Banner
+    div:nth-child(7) {
+      > div {
+        > div {
+          top: 25%;
+          width: inherit;
+        }
+      }
+    }
+
+    .callout, .stdContent {
+      width: 720px;
+      margin: 24px auto;
+    }
+
+    .callout {
+      font-size: 27px;
+      line-height: 36px;
+    }
+
+    .stdContent {
+      display: block;
+
+      .left, .right {
+        width: 100%;
+      }
+
+      .left {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
