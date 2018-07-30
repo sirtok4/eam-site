@@ -68,3 +68,27 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .joinOurTeamContainer {
+    max-width: 480px;
+    margin-bottom: 24px;
+
+    // targets 1st Banner
+    div:first-child {
+      > div {
+        > div {
+          top: 24%;
+          width: 70%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .callout, .stdContent {
+      width: 432px;
+      margin: 24px auto;
+    }
+  }
+}
