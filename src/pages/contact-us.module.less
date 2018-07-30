@@ -157,3 +157,27 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .contactUsContainer {
+    max-width: 480px;
+
+    .stdContent {
+      width: 432px;
+      display: block;
+
+      .section {
+        .address {
+          display: block;
+
+          >div {
+            &:not(:last-child) {
+              margin-bottom: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
