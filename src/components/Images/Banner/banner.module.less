@@ -6,3 +6,19 @@
     max-height: 400px;
   }
 }
+
+// Responsive for Tablets (768px)
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+
+    // target banner text
+    div:first-child {
+      > div {
+        top: 38%;
+        font-size: 36px;
+        margin-left: 24px;
+      }
+    }
+  }
+}
