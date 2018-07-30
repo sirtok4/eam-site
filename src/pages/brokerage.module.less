@@ -48,9 +48,16 @@
 @media (max-width: 768px) {
   .brokerageContainer {
     max-width: 768px;
+    margin-bottom: 24px;
 
     .callout, .stdContent {
       width: 720px;
+      margin: 24px auto;
+    }
+
+    .callout {
+      font-size: 27px;
+      line-height: 36px;
     }
 
     .stdContent {
@@ -64,5 +71,16 @@
         margin-bottom: 24px;
       }
     }
+
+    // targets 2nd Banner
+    div:nth-child(7) {
+      > div {
+        > div {
+          top: 25%;
+          width: 70%;
+        }
+      }
+    }
+
   }
 }
