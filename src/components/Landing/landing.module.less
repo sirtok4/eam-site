@@ -164,24 +164,26 @@
     }
 
     .group3 {
-      max-width: 720px;
-      margin: 24px auto 0;
+      max-width: 100%;
+      display: block;
+      margin: 24px 0;
+      height: 630px;
 
-      // target captions
-      > a {
-        > div {
-          > div {
-            font-size: 18px;
-            width: 80%;
-          }
+      > * {
+        &:not(:last-child) {
+          margin: 0 0 24px 0;
         }
       }
 
-      // target first image with single-line caption
-      a.brokerage {
-        >div {
-          >div {
-            top: 98px;
+      // target captions
+      > a {
+        display: block;
+
+        > div {
+          height: 200px;
+
+          > div {
+            font-size: 24px;
           }
         }
       }
