@@ -127,3 +127,64 @@
     }
   }
 }
+
+// Responsive for Tablets (768px)
+@media (max-width: 480px) {
+  .container {
+    padding-bottom: 24px;
+
+    // target Brokercheck button
+    >div {
+      &:first-child {
+        >a {
+          >img.logo {
+            height: 32px;
+            top: 68px;
+          }
+        }
+      }
+    }
+
+    .hero {
+      >div {
+        // target banner
+        >img {
+          height: 375px;
+        }
+
+        // select caption
+        >div {
+          left: 24px;
+          top: 72px;
+          font-size: 30px;
+          letter-spacing: 0.23px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .group3 {
+      max-width: 720px;
+      margin: 24px auto 0;
+
+      // target captions
+      > a {
+        > div {
+          > div {
+            font-size: 18px;
+            width: 80%;
+          }
+        }
+      }
+
+      // target first image with single-line caption
+      a.brokerage {
+        >div {
+          >div {
+            top: 98px;
+          }
+        }
+      }
+    }
+  }
+}
