@@ -1,5 +1,6 @@
 .pageContainer {
   height: 100%;
+  width: 100%;
 
   // handles 100% height for FF/IE
   display: inline-block;
@@ -11,9 +12,10 @@
 
   // @todo: make app-wide
   .stdContent {
-    width: 1200px;
+    max-width: 1200px;
     margin: 36px auto;
     display: flex;
+    padding: 0 24px;
 
     .left, .right {
       width: 50%;
@@ -32,12 +34,13 @@
   .partners {
     display: flex;
     max-width: 1200px;
+    padding: 0 24px;
     margin: 48px auto;
     justify-content: space-between;
 
     .partner {
       display: flex;
-      width: 384px;
+      max-width: 384px;
 
       .logo {
         min-width: 96px;
@@ -51,8 +54,9 @@
   }
 
   .callout {
-    width: 1200px;
+    max-width: 1200px;
     margin: 36px auto;
+    padding: 0 24px;
     color: #5D6482;
     font-family: 'libre franklin light';
     letter-spacing: .5px;
@@ -65,11 +69,9 @@
 // Responsive - Tablet
 @media (max-width: 768px) {
   .pageContainer {
-    max-width: 768px;
-
     .callout, .stdContent {
       margin: 24px auto;
-      width: 720px;
+      max-width: 720px;
     }
 
     .callout {
@@ -94,7 +96,7 @@
 
       .partner {
         display: initial;
-        width: 224px;
+        max-width: 224px;
 
         .logo {
           width: 96px;
@@ -127,11 +129,10 @@
 // Responsive - Smartphone
 @media (max-width: 480px) {
   .pageContainer {
-    max-width: 480px;
     margin-bottom: 24px;
 
     .callout, .stdContent {
-      width: 432px;
+      max-width: 432px;
     }
 
     .partners {
@@ -140,7 +141,7 @@
 
       .partner {
         display: flex;
-        width: 224px;
+        max-width: 224px;
 
         &:not(:last-of-type) {
           margin-bottom: 24px;
