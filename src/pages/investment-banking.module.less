@@ -214,3 +214,24 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 410px) {
+  .investmentBankingContainer {
+
+    // targets 1st Banner
+    div:nth-child(2):first-of-type {
+      font-size: 14px;
+    }
+
+    // targets 2nd Banner
+    div:nth-child(7) {
+      > div {
+        > div {
+          top: 10% !important;
+          font-size: 14px
+        }
+      }
+    }
+  }
+}
