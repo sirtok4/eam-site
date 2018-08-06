@@ -7,9 +7,10 @@
 
   // @todo: make app-wide
   .stdContent {
-    width: 1200px;
+    max-width: 1200px;
     margin: 36px auto;
     display: flex;
+    padding: 0 24px;
 
     .left, .right {
       width: 50%;
@@ -28,8 +29,9 @@
   // @todo: make Callout component
   .callout {
     // @todo: make this width a global for all main content
-    width: 1200px;
+    max-width: 1200px;
     margin: 36px auto;
+    padding: 0 24px;
     color: #5D6482;
     font-family: 'libre franklin light';
     letter-spacing: .5px;
@@ -46,7 +48,7 @@
     margin-bottom: 24px;
 
     .callout, .stdContent {
-      width: 720px;
+      max-width: 720px;
       margin: 24px auto;
     }
 
@@ -72,7 +74,7 @@
     margin-bottom: 24px;
 
     .callout, .stdContent {
-      width: 432px;
+      max-width: 432px;
       margin: 24px auto;
     }
   }
