@@ -15,8 +15,8 @@ const Layout = ({ children, data }) => (
       <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no' />
       <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js' />
     </Helmet>
-    <Header siteTitle='Empire Asset Management' />
     <div className={styles.mainContent}>
+      <Header siteTitle='Empire Asset Management' />
       {children()}
     </div>
     <Footer />

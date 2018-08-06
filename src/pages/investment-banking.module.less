@@ -83,3 +83,27 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .investmentBankingContainer {
+    max-width: 480px;
+    margin-bottom: 24px;
+
+    // targets 2nd Banner
+    div:nth-child(7) {
+      > div {
+        > div {
+          top: 24%;
+          width: 80%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .callout, .stdContent {
+      width: 432px;
+      margin: 24px auto;
+    }
+  }
+}

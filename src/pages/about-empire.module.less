@@ -123,3 +123,48 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .pageContainer {
+    max-width: 480px;
+    margin-bottom: 24px;
+
+    .callout, .stdContent {
+      width: 432px;
+    }
+
+    .partners {
+      margin: 0 24px;
+      flex-direction: column;
+
+      .partner {
+        display: flex;
+        width: 224px;
+
+        &:not(:last-of-type) {
+          margin-bottom: 24px;
+        }
+
+        .text {
+          min-width: 224px;
+          margin-left: 40px;
+        }
+
+        // targets FINRA Partner
+        &:first-child {
+          margin: 0 0 24px 97px;
+        }
+
+        // targets MSRB Partner
+        &:nth-child(2) {
+          .logo {
+            width: 120px;
+            position: relative;
+            top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

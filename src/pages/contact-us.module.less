@@ -157,3 +157,40 @@
     }
   }
 }
+
+// Responsive - Smartphone
+@media (max-width: 480px) {
+  .contactUsContainer {
+    max-width: 480px;
+
+    // targets first Banner
+    div:first-child {
+      > div {
+        > div {
+          top: 46%;
+        }
+      }
+    }
+
+    .stdContent {
+      width: 432px;
+      display: block;
+
+      .map {
+        overflow: hidden;
+      }
+
+      .section {
+        .address {
+          display: block;
+
+          >div {
+            &:not(:last-child) {
+              margin-bottom: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

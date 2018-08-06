@@ -87,7 +87,7 @@
   }
 }
 
-// Responsive for Tablets (768px)
+// Responsive - Tablets
 @media (max-width: 768px) {
   .container {
     padding-bottom: 24px;
@@ -121,6 +121,70 @@
         >div {
           >div {
             top: 98px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive - Smartphones
+@media (max-width: 480px) {
+  .container {
+    position: relative;
+    padding-bottom: 12px;
+
+    // target Brokercheck button
+    >div {
+      &:first-child {
+        >a {
+          >img.logo {
+            height: 32px;
+            top: 68px;
+          }
+        }
+      }
+    }
+
+    .hero {
+      >div {
+        // target banner
+        >img {
+          height: 375px;
+        }
+
+        // select caption
+        >div {
+          left: 24px;
+          top: 72px;
+          font-size: 30px;
+          letter-spacing: 0.23px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .group3 {
+      max-width: 100%;
+      display: block;
+      margin: 24px 0;
+      height: 630px;
+
+      > * {
+        &:not(:last-child) {
+          margin: 0 0 24px 0;
+        }
+      }
+
+      // target captions
+      > a {
+        display: block;
+
+        > div {
+          height: 200px;
+
+          > div {
+            font-size: 24px;
           }
         }
       }

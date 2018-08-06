@@ -1,12 +1,12 @@
 .container {
-  position: fixed;
+  // position: fixed;
   top: 0;
   left: 0;
   right: 0;
   border-top: 8px solid #F5F4F1;
 
   z-index: 999;
-  width: 1920px;
+  width: 100%; // FORMERLY SET TO 1920px, HENCE OVERFLOW
   margin: 0 auto;
   height: 120px;
   display: flex;
@@ -21,9 +21,19 @@
   }
 }
 
-// Responsive - Small desktop
-@media (max-width: 1280px) {
+// Responsive - Tablet (todo)
+@media (max-width: 930px) { // FORMERLY 768px
   .container {
-    width: 1280px;
+    // max-width: 768px; MAKE THIS CHANGE FOR OTHER MQUERIES?
+    max-width: 100%; // CHANGED FROM ABOVE
+    height: 80px;
+    border-top: 0;
+    box-sizing: border-box;
+
+    .logoAndMenu {
+      // align logo to left to make space for hamburger menu
+      justify-content: space-between;
+      padding-top: 8px;
+    }
   }
 }

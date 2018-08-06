@@ -37,33 +37,18 @@
   }
 }
 
-// Responsive for Tablets (768px)
+// Responsive - Tablets
 @media (max-width: 768px) {
- .container {
-   margin-bottom: 96px;
+  .container {
+    margin-bottom: 220px;
 
-   a {
-     width: 49%;
+    a {
+      width: 100%;
+      margin-bottom: 12px;
 
-     // These extra stylings due to anchor tag display property
-     // margin bottom of top 2 buttons
-     &:first-child, &:nth-child(2) {
-       margin-bottom: 12px;
-     }
-
-     // margin bottom of bottom 2 buttons
-     &:nth-child(3), &:nth-child(4) {
-      //  margin-bottom: 48px;
-     }
-
-     // margin right of 1st and 3rd buttons
-     &:first-child, &:nth-child(3) {
-       margin-right: 12px;
-     }
-
-     button {
-      font-size: 12px;
-     }
-   }
- }
+      button {
+        font-size: 12px;
+      }
+    }
+  }
 }

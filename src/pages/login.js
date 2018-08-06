@@ -3,7 +3,7 @@ import Banner from '../components/Images/Banner/Banner'
 
 import styles from './login.module.less'
 
-import banner1 from '../../assets/images/account-login/mfg-account_login-dark-min.png'
+import banner1 from '../../assets/images/account-login/mfg-account_login-min-1.png'
 
 const Login = () => (
   <div className={styles.loginContainer}>
