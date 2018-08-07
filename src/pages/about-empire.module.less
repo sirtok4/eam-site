@@ -29,6 +29,11 @@
         margin-bottom: 24px;
       }
     }
+
+    .disclaimer {
+      color: gray;
+      font-size: 12px;
+    }
   }
 
   .partners {
@@ -40,7 +45,7 @@
 
     .partner {
       display: flex;
-      max-width: 384px;
+      max-width: 340px;
 
       .logo {
         min-width: 96px;
@@ -49,6 +54,11 @@
 
       .text {
         min-width: 264px;
+      }
+
+      // targets MSRB Partner
+      &:nth-child(2) {
+        margin-right: 42px;
       }
     }
   }
@@ -63,6 +73,45 @@
     font-size: 36px;
     line-height: 48px;
     display: block;
+  }
+}
+
+@media (max-width: 1280px) {
+  .pageContainer {
+    .partners {
+      margin: 48px 24px;
+
+      .partner {
+        display: initial;
+        max-width: 348px;
+
+        .logo {
+          width: 96px;
+          height: 78px;
+          margin: 0 auto;
+        }
+
+        .text {
+          min-width: 224px;
+          padding-right: 12px;
+        }
+
+        // targets FINRA Partner
+        &:first-child {
+          margin-top: 78px;
+        }
+
+        // targets MSRB Partner
+        &:nth-child(2) {
+          .logo {
+            width: 130px;
+            position: relative;
+            top: 5px;
+            // margin-right: 20px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -92,25 +141,25 @@
     }
 
     .partners {
-      margin: 48px 24px;
+      margin: 48px 24px 12px;
+      flex-direction: column;
 
       .partner {
-        display: initial;
-        max-width: 224px;
+        display: flex;
+        max-width: 100%;
 
-        .logo {
-          width: 96px;
-          height: 78px;
-          margin: 0 auto;
+        &:not(:first-of-type) {
+          margin-bottom: 24px;
         }
 
         .text {
           min-width: 224px;
+          margin-left: 40px;
         }
 
         // targets FINRA Partner
         &:first-child {
-          margin-top: 78px;
+          margin: 0 0 24px 97px;
         }
 
         // targets MSRB Partner
@@ -155,7 +204,7 @@
     }
 
     .partners {
-      margin: 0 24px;
+      margin: 0 24px 0 12px;
       flex-direction: column;
 
       .partner {
@@ -168,7 +217,7 @@
 
         .text {
           min-width: 224px;
-          margin-left: 40px;
+          margin-left: 20px;
         }
 
         // targets FINRA Partner

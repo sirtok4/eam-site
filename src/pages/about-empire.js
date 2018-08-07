@@ -79,6 +79,12 @@ const AboutEmpire = () => (
         The SIPC oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble, and the customer assets are missing.
       </Partner>
     </div>
+
+    <div className={styles.stdContent}>
+      <p className={styles.disclaimer}>
+        *For more information regarding our memberships please visit "Client's Rights and Protections" on our website.
+      </p>
+    </div>
   </div>
 )
 
