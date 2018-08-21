@@ -26,7 +26,7 @@ const AssetManagement = () => (
           <p>Our full range of options include:</p>
           <ul>
             <li>
-              <p>Separately managed accounts</p>
+              <p>Separately Managed Accounts</p>
             </li>
             <li>
               <p>Multi-Manager Accounts</p>
