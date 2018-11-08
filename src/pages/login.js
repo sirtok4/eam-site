@@ -19,7 +19,7 @@ const Login = () => (
       <div className={styles.field}>
         <a
           className={styles.button}
-          href="https://www.investor-connect.com/WMConnect/ConnectWeb/signin/Signin.invoke"
+          href="https://www.investor-connect.com/WMConnect/ConnectWeb/signin/Signin.invoke?vlType=noyHbWEbxehrprG"
           target="_blank"
         >
           <button className={styles.submit}>
