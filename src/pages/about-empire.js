@@ -66,20 +66,9 @@ const AboutEmpire = () => (
         </div>
       </div>
     </div>
-    <div className={styles.partners}>
-      <Partner name='FINRA'>
-        FINRA is dedicated to investor protection and market integrity through effective and efficient regulation of broker-dealer.
-      </Partner>
-
-      <Partner name='MSRB' src={partner2}>
-        The MSRB protects investors, state and local governments, and the public interest, by promoting a fair and efficient municipal securities market.
-      </Partner>
-
-      <Partner name='SIPC' src={partner3}>
-        The SIPC oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble, and the customer assets are missing.
-      </Partner>
+    <div className={styles.stdContent}>
+      <a className={styles.brochure} href='http://online.anyflip.com/bmxr/lczf/mobile/index.html' target='_blank'>Click here to review our brochure.</a>
     </div>
-
     <div className={styles.stdContent}>
       <p className={styles.disclaimer}>
         *For more information regarding our memberships please visit "Client's Rights and Protections" on our website.
