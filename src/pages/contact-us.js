@@ -67,6 +67,7 @@ class ContactUs extends Component {
               name='contact'
               method='POST'
               data-netlify='true'
+              data-netlify-recaptcha='true'
             >
               <div className={styles.section}>
                 <div className={styles.field}>
@@ -89,6 +90,8 @@ class ContactUs extends Component {
                   <label htmlFor='questions-comments'>Questions / Comments</label>
                   <textarea id='questions-comments' name='questions-comments' />
                 </div>
+
+                <div data-netlify-recaptcha='true'></div>
 
                 <div className={styles.field}>
                   <button
