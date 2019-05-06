@@ -91,6 +91,10 @@ class ContactUs extends Component {
                   <textarea id='questions-comments' name='questions-comments' />
                 </div>
 
+                <div className={styles.field}>
+                  <p className={styles.recaptcha}>Please check reCAPTCHA box before clicking Submit.</p>
+                </div>
+
                 <div data-netlify-recaptcha='true'></div>
 
                 <div className={styles.field}>
