@@ -67,7 +67,7 @@ const AboutEmpire = () => (
       </div>
     </div>
     <div className={styles.stdContent}>
-      <a className={styles.brochure} href='https://online.flippingbook.com/view/981202/' target='_blank'>Click here to review our brochure.</a>
+      <a className={styles.brochure} href='http://online.anyflip.com/bmxr/tzbq/' target='_blank'>Click here to review our brochure.</a>
     </div>
     <div className={styles.stdContent}>
       <p className={styles.disclaimer}>
