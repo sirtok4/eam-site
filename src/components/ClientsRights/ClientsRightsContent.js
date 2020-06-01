@@ -5,7 +5,7 @@ import styles from './clients-rights-content.module.less'
 const ClientsRightsContent = () => (
   <div className={styles.clientsRightsContainer}>
     <div className={styles.section}>
-      <h4>Regulartory Controls for your Protection</h4>
+      <h4>Regulatory Controls for your Protection</h4>
       <p>
         Empire Asset Management and RBC Correspondent Services a division of RBC
         Capital Markets, LLC are registered broker-dealers are subject to the rules
