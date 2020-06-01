@@ -25,7 +25,7 @@ const Reporting = () => (
 
     <div className={styles.section}>
       <a
-        href="https://private.tagaudit.com/do/display?page=Rule606::Report::PublicClient&amp;subpage=Rule606::Report::guts&amp;heading=Development&amp;cat1=XH&amp;cat2=XH2&amp;topic=Rule606&amp;stitle=Rule+606&amp;mypage=nyse&amp;tctrl(usr)=eamc"
+        href="https://public.s3.com/rule606/rbcwm/correspondentsvcs"
         target="_blank"
       >
         <p>View 606 Report</p>
