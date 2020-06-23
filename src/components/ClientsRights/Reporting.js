@@ -30,27 +30,21 @@ const Reporting = () => (
       >
         <p>View 606 Report</p>
       </a>
-    </div>
-   <div className={styles.section}>
-      <h4 className={styles.boldheader}>
+        <p><h4 className={styles.boldheader}>
         Customer Relationship Summary:
-      </h4>
-    </div>
-<div className={styles.section}>
-      <a
+      </h4></p>
+        <p> <a
         href="https://github.com/gregRV/eam-site/blob/master/src/components/ClientsRights/Empire%20CRS%20BD%20(06-01-20)%20(003).pdf"
         target="_blank"
       >
         <p>Empire Asset Management Company/p>
-      </a>
-    </div>
-<div className={styles.section}>
-      <a
+      </a></p>
+        <p>  <a
         href="https://github.com/gregRV/eam-site/blob/master/src/components/ClientsRights/Empire%20CRS%20IA%20(06-01-20)%20(003).pdf"
         target="_blank"
       >
         <p>Empire Financial Management Company</p>
-      </a>
+      </a></p>  
     </div>
   </div>
 )
