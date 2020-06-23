@@ -71,7 +71,7 @@ const AboutEmpire = () => (
     </div>
     <div className={styles.stdContent}>
       <p className={styles.disclaimer}>
-        *For more information regarding our memberships please visit "Client's Rights and Protections" on our website.
+        *For more information relating to Firm disclosures and our Customer Relationship Summary (CRS) please visit “Client’s Rights and Protections” on our website.
       </p>
     </div>
   </div>
