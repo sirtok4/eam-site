@@ -29,12 +29,14 @@ const Reporting = () => (
         target="_blank"
       >
         <p>View 606 Report</p>
-      </a><br><br>
-        <p><h4 className={styles.boldheader}>
+      </a>
+    </div>
+    <div className={styles.section}>
+    <p><h4 className={styles.boldheader}>
         Customer Relationship Summary:
       </h4></p>
-    </div>
-  </div>
+     </div>
+   </div>
 )
 
 export default Reporting
