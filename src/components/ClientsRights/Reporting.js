@@ -38,7 +38,7 @@ const Reporting = () => (
      </div>
     <div className={styles.section}>
       <a
-        href="https://github.com/gregRV/eam-site/blob/master/src/components/ClientsRights/Empire%20CRS%20BD%20(06-01-20)%20(003).pdf"
+        href="Empire%20CRS%20BD%20(06-01-20)%20(003).pdf"
         target="_blank"
       >
         <p>Empire Asset Management Company</p>
@@ -46,7 +46,7 @@ const Reporting = () => (
     </div>
       <div className={styles.section}>
       <a
-        href="https://github.com/gregRV/eam-site/blob/master/src/components/ClientsRights/Empire%20CRS%20IA%20(06-01-20)%20(003).pdf"
+        href="Empire%20CRS%20IA%20(06-01-20)%20(003).pdf"
         target="_blank"
       >
         <p>Empire Financial Management Company</p>
