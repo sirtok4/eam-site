@@ -38,8 +38,8 @@ const Reporting = () => (
      </div>
     <div className={styles.section}>
       <a
-        href="Empire%20CRS%20BD%20(06-01-20)%20(003).pdf"
-        target="_blank"
+        href="https://github.com/gregRV/eam-site/blob/master/Empire%20CRS%20BD%20(06-01-20)%20(003).pdf"
+        target="_blank" type="application/pdf"
       >
         <p>Empire Asset Management Company</p>
       </a>
