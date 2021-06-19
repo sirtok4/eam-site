@@ -33,7 +33,7 @@ const Reporting = () => (
     </div>
     <div className={styles.section}>
       <a
-        href="https://public.s3.com/rule606/rbcwm/correspondentsvcs"
+        href="https://github.com/gregRV/eam-site/blob/master/Disclosure%20of%20Order%20Routing%20Information.pdf"
         target="_blank"
       >
         <p>Trading Disclosures</p>
