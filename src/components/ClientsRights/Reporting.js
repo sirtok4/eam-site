@@ -32,6 +32,14 @@ const Reporting = () => (
       </a>
     </div>
     <div className={styles.section}>
+      <a
+        href="https://public.s3.com/rule606/rbcwm/correspondentsvcs"
+        target="_blank"
+      >
+        <p>Trading Disclosures</p>
+      </a>
+    </div>
+    <div className={styles.section}>
     <p><h4 className={styles.boldheader}>
         Customer Relationship Summary:
       </h4></p>
