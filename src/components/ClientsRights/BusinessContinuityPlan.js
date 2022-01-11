@@ -32,8 +32,8 @@ const BusinessContinuityPlan = () => (
         <li>
           During a significant business disruption, if our clients are unable to
           reach us either by telephone or internet and require access to their
-          accounts, they are advised to contact our clearing firm RBC
-          Correspondent Services a division of RBC Capital Markets, LLC, for
+          accounts, they are advised to contact our clearing firm RBC Clearing & 
+          Custody a division of RBC Capital Markets, LLC, for
           access to their funds and securities. Clients are advised to refer to
           their Account Statements for contact information.
         </li>
