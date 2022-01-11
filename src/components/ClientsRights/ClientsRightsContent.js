@@ -7,8 +7,8 @@ const ClientsRightsContent = () => (
     <div className={styles.section}>
       <h4>Regulatory Controls for your Protection</h4>
       <p>
-        Empire Asset Management and RBC Correspondent Services a division of RBC
-        Capital Markets, LLC are registered broker-dealers are subject to the rules
+        Empire Asset Management and RBC Clearing & Custody a division of RBC Capital Markets, LLC
+        are registered broker-dealers are subject to the rules
         and regulations of the Securities and Exchange Commission (SEC), the
         Financial Industry Regulatory Authority (FINRA) and is registered with the
         Municipal Securities Rulemaking Board (MSRB). These regulatory organizations
@@ -29,10 +29,10 @@ const ClientsRightsContent = () => (
     <div className={styles.section}>
       <p>
         In compliance with SEC rules,
-        RBC Correspondent Services a division of RBC Capital Markets, LLC will have
+        RBC Clearing & Custody a division of RBC Capital Markets, LLC will have
         an independent public accounting firm audit your financial information every
         year. Further, as a member of the NYSE and FINRA and registered with the
-        SEC, RBC Correspondent Services a division of RBC Capital Markets, LLC is
+        SEC, RBC Clearing & Custody a division of RBC Capital Markets, LLC is
         subject to continuous oversight and examinations.
       </p>
     </div>
@@ -57,12 +57,12 @@ const ClientsRightsContent = () => (
     </div>
     <div className={styles.section}>
       <p>
-        Empire Asset Management cannot use your fully paid securities for its business. These securities must be held for your own exclusive benefit, and are subject to the instructions that we provide to RBC Correspondent Services a division of RBC Capital Markets, LLC.
+        Empire Asset Management cannot use your fully paid securities for its business. These securities must be held for your own exclusive benefit, and are subject to the instructions that we provide to RBC Clearing & Custody a division of RBC Capital Markets, LLC.
       </p>
     </div>
     <div className={styles.section}>
       <p>
-        RBC Correspondent Services a division of RBC Capital Markets, LLC must account for and inspect every physical security owned by an investor at least once every calendar quarter. Any differences must be recorded and corrected within specific time frames. Net customer cash balances not required for customer transactions must be maintained in a cash account segregated for the exclusive benefit of customers.*
+        RBC Clearing & Custody a division of RBC Capital Markets, LLC must account for and inspect every physical security owned by an investor at least once every calendar quarter. Any differences must be recorded and corrected within specific time frames. Net customer cash balances not required for customer transactions must be maintained in a cash account segregated for the exclusive benefit of customers.*
       </p>
     </div>
     <div className={styles.section}>
@@ -79,11 +79,11 @@ const ClientsRightsContent = () => (
     </div>
     <div className={styles.section}>
       <p>
-        Because the Securities Investor Protection Act of 1970 affords special benefits to SIPC covered firms, securities in accounts carried by RBC Correspondent Services a division of RBC Capital Markets, LLC are protected in accordance with the Securities Investor Protection Corporation (SIPC) up to $500,000 (including cash claims limited to $250,000).  For details, please visit <a className={styles.sipc} href='https://www.sipc.org' target='_blank'>www.sipc.org</a>.
+        Because the Securities Investor Protection Act of 1970 affords special benefits to SIPC covered firms, securities in accounts carried by RBC Clearing & Custody a division of RBC Capital Markets, LLC are protected in accordance with the Securities Investor Protection Corporation (SIPC) up to $500,000 (including cash claims limited to $250,000).  For details, please visit <a className={styles.sipc} href='https://www.sipc.org' target='_blank'>www.sipc.org</a>.
       </p>
     </div>
     <div className={styles.fineprint}>
-      * The inclusion of information in connection with the regulatory oversight under which Empire Asset Management and RBC Correspondent Services a division of RBC Capital Markets, LLC operate are not intended to imply or represent an endorsement, indemnification or guarantee by any regulatory authority, of the firms&#39; practices, products or services.
+      * The inclusion of information in connection with the regulatory oversight under which Empire Asset Management and RBC Clearing & Custody a division of RBC Capital Markets, LLC operate are not intended to imply or represent an endorsement, indemnification or guarantee by any regulatory authority, of the firms&#39; practices, products or services.
     </div>
   </div>
 )
