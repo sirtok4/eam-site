@@ -49,8 +49,8 @@ const PrivacyPolicy = () => (
     <div className={styles.section}>
       <ul className={styles.wideItems}>
         <li>
-          To Empire&#39;s clearing firm, RBC Correspondent Services a division
-          of RBC Capital Markets, LLC , its attorneys, accountants, auditors,
+          To Empire&#39;s clearing firm, RBC Clearing & Custody a division of RBC Capital Markets, LLC,
+          its attorneys, accountants, auditors,
           administrators or other service providers;
         </li>
         <li>
@@ -90,8 +90,8 @@ const PrivacyPolicy = () => (
         &#34;opt out&#34; of the information sharing as set forth above however,
         the firm will be unable to establish an account for you as the sharing
         that occurs is necessary to establish and maintain your account through
-        our clearing firm, RBC Correspondent Services a division of RBC Capital
-        Markets, LLC. Further, all other information sharing in which we
+        our clearing firm, RBC Clearing & Custody a division of RBC Capital Markets,
+        LLC. Further, all other information sharing in which we
         participate is required by the firm&#39;s regulators (FINRA and the U.S.
         Securities and Exchange Commission) and/or the federal/state judicial
         system. Additionally, the firm reserves its right to share appropriate
